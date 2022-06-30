@@ -1,0 +1,105 @@
+{
+    "root": true,
+    "parser": "@babel/eslint-parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react-hooks/recommended",
+      "airbnb",
+      "prettier",
+      "plugin:cypress/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "requireConfigFile": false,
+      "babelOptions": { "configFile": "./.babelrc_" }
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      },
+      "import/resolver": {
+        "typescript": {},
+        "alias": {
+          "map": [
+            ["components", "./src/components"],
+            ["components-v2", "./src/components-v2"],
+            ["hooks", "./src/hooks"],
+            ["constants", "./src/constants"],
+            ["clients", "./src/clients"],
+            ["pages", "./src/pages"],
+            ["styles", "./src/styles"],
+            ["utils", "./src/utils"],
+            ["context", "./src/context"],
+            ["i18n-lib", "./src/i18n-lib"],
+            ["sysconfig", "./src/sysconfig"],
+            ["HOC", "./src/HOC"],
+            ["services", "./src/services"]
+          ]
+        }
+      },
+      "import/parsers": {
+        "@typescript-eslint/parser": [".ts", ".tsx"]
+      }
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "react/forbid-prop-types": 0,
+      "react/require-default-props": "off",
+      "react/no-unescaped-entities": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/button-has-type": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "object-curly-newline": "off",
+      "implicit-arrow-linebreak": "off",
+      "react/no-danger": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+      "cypress/no-assigning-return-values": "error",
+      "cypress/no-unnecessary-waiting": "error",
+      "cypress/assertion-before-screenshot": "warn",
+      "cypress/no-force": "warn",
+      "cypress/no-async-tests": "error",
+      "cypress/no-pause": "error",
+      "no-console": ["warn", { "allow": ["error"] }],
+      "import/no-unresolved": "error",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+        }
+      ]
+    },
+   
+    "overrides": [
+      {
+        "files": ["**/*.ts", "**/*.tsx"],
+        "parser": "@typescript-eslint/parser",
+        "plugins": ["@typescript-eslint"],
+        "extends": ["plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended"],
+        "rules": {
+          "no-undef": "off",
+          "@typescript-eslint/no-unused-vars": "off"
+        }
+      }
+    ]
+  }
+  
