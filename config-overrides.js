@@ -8,3 +8,5 @@ export default function override(config, _environment) {
 
   return config;
 }
+
+// config module
