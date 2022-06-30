@@ -2,6 +2,10 @@ import "./App.css";
 import logo from "./logo.svg";
 
 function App() {
+  // const [data, loading, err] = useFetchAPI(
+  //   "https://jsonplaceholder.typicode.com/todos/1"
+  // );
+  // console.log(data);
   return (
     <div className="App">
       <header className="App-header">
