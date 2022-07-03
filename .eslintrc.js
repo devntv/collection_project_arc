@@ -4,6 +4,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   plugins: ["node", "unicorn", "prettier", "@typescript-eslint"],
   extends: [
@@ -23,13 +26,6 @@ module.exports = {
     es6: true,
     browser: true,
     commonjs: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   rules: {
     "no-console": "error",
