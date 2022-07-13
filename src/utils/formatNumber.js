@@ -22,7 +22,7 @@ export function formatNumber(n, separate = ".") {
 // formatNumber(numb)
 
 export function formatFloatNumber(n) {
-  const num = ValidateUtils.isNumber(n) ? n : 0;
+  const num = validateUtil.isNumber(n) ? n : 0;
   const s = String(num);
   if (n % 1 !== 0) {
     const m = s.substr(0, s.indexOf(".") + 3);
