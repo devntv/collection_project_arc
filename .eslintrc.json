@@ -37,7 +37,7 @@
           "map": [
             ["components", "./src/components"],
             ["constants", "./src/constants"],
-            ["utils", "./src/utils"],
+            ["utils", "./src/utils"]
           ]
         }
       },
