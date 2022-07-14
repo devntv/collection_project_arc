@@ -144,16 +144,16 @@ const getTimeAgo = (date) => {
       unit = "năm";
   }
 
-  let str = "";
+  let string_ = "";
   if (num) {
-    str += `${num} `;
+    string_ += `${num} `;
   }
 
-  str += `${unit}`;
+  string_ += `${unit}`;
 
-  str += " trước";
+  string_ += " trước";
 
-  return str;
+  return string_;
 };
 
 export const DAY_SECONDS = 24 * 60 * 60;
