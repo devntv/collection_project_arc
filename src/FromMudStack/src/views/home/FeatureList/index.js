@@ -12,7 +12,7 @@ import CollaborateIcon from "./icons/Collaborate";
 import InspectIcon from "./icons/Inspect";
 import VersionIcon from "./icons/Version";
 import SearchWebp from "./Search.webp";
-import ViewerWebm from "./Viewer.webm";
+import ViewerWebm from "./Viewer.js";
 
 import AnimatedFiles from "./images/animated-files.svg";
 
