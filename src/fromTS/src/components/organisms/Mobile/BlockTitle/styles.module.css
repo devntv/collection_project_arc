@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .total {
+    margin-left: auto;
+    text-align: right;
+    font-family: ggsr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #797979;
+  }
+  
+  .titleWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .title {
+    font-family: ggsm;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+  }

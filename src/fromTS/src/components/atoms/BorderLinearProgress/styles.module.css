@@ -1,0 +1,25 @@
+.box {
+  width: 100%;
+  z-index: 10;
+}
+.box [class*='MuiBox-root'] {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  font-size: 14px !important;
+}
+
+
+/* using for mobile v2 */
+
+.arrow_icon_mv2 {
+  position: absolute;
+  background-color: transparent !important;
+  top: 0;
+}
+.arrowIcon {
+  background-color: transparent !important;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-100%);
+}

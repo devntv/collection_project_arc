@@ -1,0 +1,41 @@
+.root {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 30px);
+}
+
+.wrapper {
+  position: relative !important;
+}
+
+.progress {
+  color: #4caf50 !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  margin-top: -41px;
+  margin-left: -40px;
+}
+
+.fullWidth [class*='MuiAlert-message'] { 
+  width: 100%;
+  padding: 4px;
+}
+.MuiAlert-message{
+  width: 100%;
+}
+    .content {
+      width:94%;
+    }
+    
+@media (max-width: 777px) {
+  .content {
+    width:90%;
+  }  
+}
+
+@media (max-width: 550px) {
+  .content {
+    width:80%;
+  }  
+}

@@ -1,0 +1,8 @@
+@media only screen and (max-width: 767px) {
+  .searchBox .searchInput{
+    width: 200px !important;
+  }
+  .searchBox [class*='Mui-focused']{
+    width: 250px !important;
+  }
+}  

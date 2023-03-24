@@ -1,0 +1,16 @@
+.custom [class*="MuiDialog-paper"]{
+  width: 100% !important;
+}
+.title{
+  text-align: center;
+  font-weight: 600;
+}
+.closeButton{
+  position: absolute !important;
+  right: 8px;
+  top: 8px;
+}
+.root{
+  margin: 0;
+  padding: 16px
+}

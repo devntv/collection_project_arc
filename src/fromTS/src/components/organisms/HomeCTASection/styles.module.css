@@ -1,0 +1,59 @@
+.homeCTA {
+  background: black url('/images/default/homeCTA.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.homeCTAOverlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 48px 15px;
+  text-align: center;
+}
+
+.btnWrapper {
+  max-width: 800px;
+  margin: 0 auto !important;
+  justify-content: center;
+}
+
+.customBtn {
+  width: 134px !important;
+  margin: 8px !important;
+  padding: 6px 12px !important;
+  text-transform: capitalize !important;
+}
+.customPhone {
+  display: none !important;
+}
+
+.homeCTA .customGuest {
+  background-color: #17a2b8 !important;
+}
+
+.title {
+  font-size: 24px !important;
+  color: #fff;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.noAuthIcon {
+  margin-right: 6px;
+}
+
+@media (max-width: 767px) {
+  .btnWrapper {
+    display: block !important;
+  }
+  .btnWrapper button {
+    display: block !important;
+    margin: 15px auto !important;
+  }
+  .customPhone {
+    display: block;
+    padding: 6px 12px !important;
+  }
+  .customPhone a {
+    color: #fff;
+  }
+}

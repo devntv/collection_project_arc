@@ -1,0 +1,57 @@
+.ribbon {
+    display: flex;
+    flex-direction: column;
+    width: 3.4em;
+    height: 3.5em;
+    padding: 0.25em;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.ribbon::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    bottom: -15px;
+    border-left: calc(3.4em / 2) solid;
+    border-right: calc(3.4em / 2) solid;
+    border-bottom: 15px solid transparent
+}
+
+.ribbon_percent {
+    font-size: 1.5em;
+    overflow: hidden;
+}
+
+.ribbon_status {
+    color: #fff;
+}
+
+.price_up {
+    color: #dc3545;
+    background-color: #f9b514
+}
+
+.price_down {
+    color: #f9b514;
+    background-color: #dc3545;
+}
+
+.ribbon.price_up::after {
+    border-left-color: #f9b514;
+    border-right-color: #f9b514;
+}
+
+.ribbon.price_down::after {
+    border-left-color: #dc3545;
+    border-right-color: #dc3545;
+}

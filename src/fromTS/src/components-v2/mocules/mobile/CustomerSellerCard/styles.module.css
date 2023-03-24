@@ -1,0 +1,46 @@
+.avatarCustomer {
+  width: 44px;
+  height: 44px;
+}
+.root_card {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 130px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f2f4fa;
+  border-radius: 10px;
+}
+.avatar_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+}
+.avatar_customer {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #09884d;
+}
+.customer_name {
+  margin-left: 8px;
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.customer_comment {
+  margin-top: 8px;
+  font-family: ggsr;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}

@@ -1,0 +1,75 @@
+.root_input [class*='MuiInputBase-input'] {
+  height: 40px;
+  padding-left: 12px !important;
+  width: 210px;
+  color: #868585;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: googlesansregular;
+}
+.root_input [class*='MuiInput-input']:hover {
+  cursor: pointer;
+}
+.dateTimePicker [class*='MuiInput-underline']::after {
+  border: none !important;
+}
+.dateTimePicker [class*='MuiInput-underline']::before {
+  border: 1px solid #e3e3e3 !important;
+  min-height: 40px !important;
+  box-sizing: border-box !important;
+  border-radius: 40px !important;
+}
+.dateTimePicker [class*='MuiInputAdornment-positionStart'] {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  margin: 0px;
+}
+.root_input ::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(20%) sepia(50%) saturate(7299%) hue-rotate(356deg) brightness(40%) contrast(20%);
+}
+
+@media (max-width: 480px) {
+  .root_input [class*='MuiInputBase-input'] {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .root_input [class*='MuiInputBase-input'] {
+    width: 180px !important;
+  }
+}
+@media (max-width: 1050px) {
+  .root_input [class*='MuiInputBase-input'] {
+    width: 100px !important;
+  }
+}
+
+/* new mobile UI */
+.mobileRoot_input [class*='MuiInputBase-input'] {
+  height: 40px;
+  padding-left: 12px !important;
+  width: 210px;
+  color: #868585;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: ggsr;
+  width: 100%;
+  text-align: left!important;
+}
+.mobileRoot_input [class*='MuiInput-input']:hover {
+  cursor: pointer;
+}
+.mobileRoot_input ::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(20%) sepia(50%) saturate(7299%) hue-rotate(356deg) brightness(40%) contrast(20%);
+}

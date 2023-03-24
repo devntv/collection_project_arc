@@ -1,0 +1,43 @@
+.wrapListPromo {
+    display: flex;
+}
+
+.wrapPromoImg {
+    border: 1px solid #DCDBDB;
+    margin: 8px 8px 0px 0px;
+    border-radius: 8px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapPromoImg div span {
+    top: 2px;
+
+}
+
+.wrapPromoResize div span {
+    right: 3px;
+    top: 2px;
+}
+
+
+.plus {
+    position: absolute;
+    right: 10px;
+}
+
+.hidePlus {
+    display: none
+}
+
+.wrapPromoImgMobile {
+    height: 55px;
+    width: 55px;
+}
+
+.wrapPromoImgMobile div span {
+    right: 1px;
+}

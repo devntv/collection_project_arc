@@ -1,0 +1,26 @@
+.bg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: white;
+}
+.contain{
+  display: block;
+  height: 100%;
+}
+.contain_inner{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: block !important;
+}
+.list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-top: 30px;
+}
+.link{
+  display: inline-block;
+}

@@ -1,0 +1,52 @@
+.disabled {
+  padding-bottom: 20px;
+}
+
+.notification_text {
+  margin: 15px 0;
+  font-family: googlesansregular;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #292929;
+}
+
+.see_all {
+  color: #0e1983;
+  font-weight: 500;
+  font-size: 20px !important;
+  line-height: 20px;
+  display: flex !important;
+  margin: 0 auto !important;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle !important;
+  user-select: none !important;
+  padding: 0.375rem 0.75rem !important;
+}
+
+@media (max-width: 450px) {
+  .see_all {
+    font-size: 16px !important;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+
+  .notification_text {
+    font-size: 14px;
+  }
+}
+
+
+/* style for mobilev2  */
+
+
+.sell_all_mv2 {
+  padding: 20px 0px !important;
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #0e1983;
+}

@@ -1,0 +1,146 @@
+.wrapRefer {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  position: relative;
+  border-radius: 12px;
+  padding: 30px 38px;
+  left: -10px;
+}
+.title {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: googlesansmedium !important;
+  text-transform: capitalize;
+}
+.wrapSend {
+  margin-top: 38px;
+}
+.btnSend {
+  height: 40px;
+  background-color: #0cba69;
+  width: 180px;
+  color: #ffffff;
+}
+.btnSend:hover {
+  background-color: #14a160;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+.wrapTable {
+  margin-top: 40px;
+}
+.wrapTable div {
+  box-shadow: none !important;
+}
+.tableData th {
+  padding-left: 0 !important;
+}
+.tableData td {
+  padding: 16px 0px;
+}
+.tableData .phoneData {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: googlesansmedium !important;
+  color: #292929;
+}
+.tableData .codeData {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: googlesansregular;
+  letter-spacing: 0.1px;
+  color: #202332;
+  padding-left: 4px;
+}
+.tableData .timeData {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: googlesansregular;
+  letter-spacing: 0.1px;
+  color: #202332;
+}
+.tableData .statusData {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  font-family: googlesansregular;
+  color: #202332;
+}
+.noticeSend {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: googlesansregular;
+  letter-spacing: 0.1px;
+  color: #d5323b;
+}
+.success {
+  color: rgb(0, 90, 194) !important;
+}
+.declined {
+  color: rgb(216, 21, 21) !important;
+}
+.btnResend button {
+  color: #ffffff;
+  background-color: #0cba69;
+  font-size: 12px;
+  padding: 4px 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+.btnResend button:hover {
+  background-color: #14a160;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.boxSend {
+  margin: -20px;
+  width: calc(100% + 40px);
+}
+.calcBox {
+  padding: 20px;
+}
+.wrapPagging {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+/* break point */
+@media (min-width: 1420px) {
+  .wrapRefer {
+    position: relative;
+    min-width: 1000px;
+    /* left: -56px; */
+  }
+}
+@media (max-width: 1080px) {
+  .calcBox {
+    padding: 0;
+    margin: 4px 0px 0px 4px;
+  }
+}
+@media (max-width: 955px) {
+  .wrapRefer {
+    left: 0;
+  }
+}
+.wrapperBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}

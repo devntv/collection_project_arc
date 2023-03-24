@@ -1,0 +1,20 @@
+.link:hover {
+  color: rgb(2, 129, 2);
+}
+
+.link {
+  margin: 15px 0 10px 0;
+  padding: 0 !important;
+  transform: translateX(-4px);
+}
+
+.linkBottom {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .linkBottom {
+    margin-bottom: 80px;
+  }
+}

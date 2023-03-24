@@ -1,0 +1,15 @@
+.container {
+  padding: 14px 14px;
+}
+.Alphakey {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: googlesansmedium;
+  color: #00b46e !important;
+}
+.AlphakeyDisabled {
+  color: #0e1983 !important;
+}
+.Alphakey:hover {
+  background-color: rgb(216, 250, 250);
+}

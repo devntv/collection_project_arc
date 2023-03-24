@@ -1,0 +1,128 @@
+.halfCircle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 2;
+  border: 2px solid rgba(15, 15, 15, .1);
+}
+
+.halfCircleBottom {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: -2px;
+  right: -5px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 2;
+  border: 2px solid rgba(15, 15, 15, .1);
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 60px);
+  background: rgba(15, 15, 15, .1);
+  z-index: 1;
+  right: 7px;
+  top: 30px;
+}
+
+.borderBox {
+  border: 2px solid rgba(15, 15, 15, .1);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.couponInfo {
+  padding: 20px 30px 20px 0;
+  position: relative;
+}
+
+.couponInfo p,
+.couponInfo .progressBox {
+  margin: 5px 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.couponInfo h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.couponBoxMargin {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 9px 9px 18px #c2c2c2,
+    -9px -9px 18px #ffffff;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  color: #ccc;
+
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.infoIcon:hover {
+  color: #00AB55;
+}
+
+.couponBox {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.couponDetailRow {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.couponDetailLabel {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+  color: #000;
+}
+
+.couponDetailValue {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.condition {
+  margin-top: 30px;
+}
+
+.condition p {
+  color: #000;
+  overflow: auto;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,40 @@
+.textArea [class*='MuiFilledInput-root'] {
+  height: 120px !important;
+}
+.btn_register {
+  border-radius: 30px;
+  padding: 12px 40px;
+  font-size: 0.875rem;
+  min-width: 176px;
+  margin: 0.25em;
+
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(0, 180, 110) !important;
+  border: 1px solid rgb(0, 180, 110) !important;
+}
+.input {
+  width: 100%;
+  margin: 8px 0;
+}
+.textError {
+  padding-top: 2px;
+  color: red;
+  font-family: googlesansregular;
+  font-size: 12px;
+  text-align: left;
+}
+.iconError {
+  font-size: 16px;
+  transform: translateY(3px);
+  font-size: 16px;
+  transform: translateY(3px);
+}
+.boxSendIMG {
+  background: #ffffff;
+  /* Neutral/Text Field Border */
+  margin: 8px 0px;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  height: 120px;
+  width: '-webkit-fill-available';
+}

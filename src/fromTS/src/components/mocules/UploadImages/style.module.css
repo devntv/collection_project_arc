@@ -1,0 +1,74 @@
+.feedback_order {
+  width: 100%;
+  max-width: 700px;
+  height: 80%;
+  background: #f4f7fc;
+  overflow: auto;
+}
+
+.container{
+  padding: 15px;
+}
+
+.title {
+  background: rgba(0, 175, 107, 0.8784313725490196);
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  margin-bottom: 15px;
+  
+}
+.label{
+  color: #565656;
+  font-weight: 400;
+}
+.text_body {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0 !important;
+}
+
+.button_find {
+  padding: 3px !important;
+}
+
+.text_red {
+  display: block;
+  color: red;
+}
+
+.button_upload {
+}
+
+.button_send {
+  /* color: ; */
+  background: #f4f7fc !important;
+  padding: 25px;
+}
+
+.reason_select {
+  height: 2.4em !important;
+}
+
+.reason_select [class*='MuiInputBase-input'] {
+  padding: 0 0 0 15px !important;
+  height: 100%;
+}
+
+.container [class*='input__info'] {
+  height: 50px !important;
+}
+.textarea{
+  margin-top: 10px !important;
+}
+.info_group{
+  margin-bottom: 20px !important;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rug-handle-icon{
+  width: 70px;
+}

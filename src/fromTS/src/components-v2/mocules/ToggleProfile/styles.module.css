@@ -1,0 +1,46 @@
+.iconInfo {
+  color: #788fca !important;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconInfo:hover {
+  background-color: #ecf0fa !important;
+  color: #0e1983 !important;
+}
+.Menu {
+  top: 86px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+  border-top: 0.5px solid #ececec;
+  font-family: googlesansregular;
+  left: 1000px;
+  width: 290px;
+  border-radius: 10px;
+}
+.MenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.MenuItem:hover {
+  background-color: unset !important;
+}
+.MenuTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  cursor: auto;
+  flex-direction: row;
+}
+.MenuTop_title {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #252525;
+  font-family: googlesansmedium;
+}
+.MenuTop_titleTransaction {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: googlesansregular;
+}

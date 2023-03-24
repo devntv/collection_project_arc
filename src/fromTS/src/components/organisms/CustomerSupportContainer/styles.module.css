@@ -1,0 +1,22 @@
+.paper {
+  margin-bottom: 20px;
+}
+
+.paper div {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 15px;
+  font-weight: 400;
+}
+
+.container {
+  /* padding-left: 100px;
+  padding-right: 100px; */
+}
+
+@media (max-width: 450px) {
+  .img_legal {
+    width: 172px;
+    height: 64px;
+  }
+}

@@ -1,0 +1,182 @@
+.link {
+  padding: 5px;
+}
+
+.no_decoration {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.small_button {
+  padding: 3px;
+}
+
+.login {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 15px !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  height: 60px;
+}
+
+.login a {
+  padding: 0;
+}
+
+.logo {
+  padding: 15px;
+  cursor: pointer;
+}
+.div_buttons {
+  padding: 15px;
+}
+
+.buttons {
+  padding: 15px;
+}
+
+.notiIcon {
+  color: #919aa3;
+  margin-right: 10px;
+}
+
+.rSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footerBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  z-index: 1;
+}
+.drawer {
+  background: linear-gradient(102.04deg, #00b46e 0%, #9ac100 100%);
+}
+.drawer [class*='MuiFab-root'] {
+  background-color: white;
+  color: #000;
+  position: fixed;
+  left: 84%;
+  top: 10px;
+}
+.drawer [class*='MuiFab-root']:hover {
+  background: white;
+}
+.logged {
+  background: linear-gradient(102.04deg, #00b46e 0%, #9ac100 100%);
+}
+.logged [class*='MuiButtonBase-root'] {
+  color: #fff;
+}
+.lSection {
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
+.searchTool {
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
+.searchTool,
+.searchTool > div {
+  width: 100%;
+}
+.lSection .text {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .div_buttons {
+    padding: 0;
+  }
+  .div_buttons button {
+    padding: 4px 11px;
+  }
+  .div_buttons button:last-child {
+    margin-right: 0 !important;
+  }
+  .div_buttons button span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .div_buttons button {
+    padding: 10px 20px;
+    line-height: 1;
+  }
+  .login {
+    padding: 10px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+  }
+  .login_wrapper {
+    /* margin-top: 75px; */
+  }
+}
+@media (max-width: 480px) {
+  .login > div:last-child {
+    flex-grow: 1;
+    text-align: right;
+  }
+}
+.search_tool_wrapper {
+  background: #fff;
+}
+.searchTool > div > div {
+  margin: 0;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid rgba(195, 204, 220, 0.4);
+  border-radius: 0 !important;
+  padding: 10px;
+  line-height: 1;
+  height: inherit;
+}
+.searchTool > div > div > div {
+  display: none;
+}
+.search_tool_wrapper .lSection button {
+  color: #919aa3;
+}
+.search_tool_wrapper .rSection button,
+.cart_wrapper .text {
+  color: #00b46e !important;
+}
+.search_tool_wrapper .lSection {
+  margin-right: 10px;
+}
+.cart_wrapper {
+  background: #fff !important;
+  min-height: 60px;
+}
+.cart_wrapper [class*='MuiButtonBase-root'] {
+  color: #0000008a !important;
+}
+.badgeCart [class*='MuiBadge-anchorOriginTopRightRectangle'] {
+  top: -3px;
+  right: 6px;
+}
+/*TODO: Fixed bug white space on sidebar */
+.mobileSidebar_container [class*='MuiDrawer-paper'] {
+  flex-wrap: wrap-reverse;
+  overflow-x: hidden;
+}

@@ -1,0 +1,21 @@
+.tag_root {
+    display:inline-flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 2.6px 7.9px;
+    margin-right: 0.25em;
+    white-space: normal;
+    font-size: 75%;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text {
+    font-size: 12px!important;
+    font-weight: 500!important;
+}

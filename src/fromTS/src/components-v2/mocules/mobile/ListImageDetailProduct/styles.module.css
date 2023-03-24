@@ -1,0 +1,15 @@
+.container {
+  display: inline-block;
+  width:100%;
+}
+
+.container .image_item {
+  background-color: green;
+  display: flex !important;
+  justify-content: center;
+  height: 240px;
+  width: 300px;
+}
+.image {
+  object-fit: contain;
+}

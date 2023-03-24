@@ -1,0 +1,32 @@
+.ingredients {
+  background-color: #f4f7fc;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.BtnMedicine {
+  /* border: 1px solid #00b46e; */
+  height: 34px !important;
+  margin-right: 4px;
+}
+.BtnActive {
+  border: 1px solid #00b46e;
+  color: #00b46e !important;
+}
+@media (min-width: 768px) {
+  .ingredients {
+    padding: 45px;
+    min-height: 80vh;
+  }
+}
+@media (max-width: 767px) {
+  .wapper {
+    padding: 15px !important;
+    overflow: hidden;
+    min-height: auto !important;
+    margin-bottom: 80px !important;
+  }
+  .lg {
+    padding: 0 !important;
+  }
+}

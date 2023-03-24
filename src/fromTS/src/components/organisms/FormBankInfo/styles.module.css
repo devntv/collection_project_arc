@@ -1,0 +1,11 @@
+.bankAccountName [class*='MuiInputBase-input'] {
+  text-transform: uppercase;
+}
+
+.mobileBank_root div:nth-child(3) input, .mobileBank_root div:nth-child(4) input{
+  line-height: 18px;
+  padding: 17px 12px 15px 4px !important;
+}
+.mobileBank_root div:nth-child(3) [class*='MuiAutocomplete-inputRoot'], .mobileBank_root div:nth-child(4) [class*='MuiAutocomplete-inputRoot']{
+  line-height: 2.8rem;
+}

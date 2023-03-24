@@ -1,0 +1,73 @@
+.pagiContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnIc {
+  padding: 0px;
+  color: '#0E1983';
+}
+
+.select {
+  position: absolute;
+  opacity: 0;
+}
+
+.dropdownLeftContainer {
+  position: relative;
+  height: auto;
+  display: inline-block;
+}
+
+.dropdownRightContainer {
+  position: relative;
+  height: auto;
+  display: inline-block;
+}
+
+.dropdownLeftContent {
+  display: none;
+  position: absolute;
+}
+
+.dropdownRightContent {
+  display: none;
+  position: absolute;
+}
+
+.dropdownLeftContainer:hover .dropdownLeftContent {
+  display: block;
+}
+
+.dropdownRightContainer:hover .dropdownRightContent {
+  display: block;
+}
+
+.dropdownLeftContainer:hover .btnMoreLeft {
+  background: #ddf4ea !important;
+  color: #0cba69 !important;
+}
+
+.dropdownRightContainer:hover .btnMoreRight {
+  background: #ddf4ea !important;
+  color: #0cba69 !important;
+}
+
+.paper {
+  background-color: #ffffff;
+  position: relative;
+  overflow-y: scroll;
+  max-height: 400px;
+  z-index: 101;
+}
+@media (min-width: 768px) and (max-width: 960px) {
+  .inputTablet {
+    height: 35px !important;
+  }
+  .inputTablet > input {
+    text-align: center;
+    height: 30px !important;
+    padding: 5px 2px;
+  }
+}

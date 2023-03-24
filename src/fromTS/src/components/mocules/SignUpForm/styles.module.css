@@ -1,0 +1,20 @@
+.province [class*='MuiInputBase-input'] {
+  height: auto !important;
+}
+
+.province [class*='MuiNativeSelect-icon'] {
+  padding: 0;
+  right: 14px;
+}
+.radioGroup {
+  flex-direction: column;
+  height: 170px;
+}
+.item [class*='MuiFormControlLabel'] {
+  margin-right: 1.6rem !important;
+}
+
+.menuDropdown [class*='MuiSelect-icon'] {
+  padding: 0;
+  right: 14px;
+}

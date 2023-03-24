@@ -1,0 +1,7 @@
+.wrapper {
+  padding: 50px;
+}
+
+.wrapper * {
+  font-family: ggsr;
+}

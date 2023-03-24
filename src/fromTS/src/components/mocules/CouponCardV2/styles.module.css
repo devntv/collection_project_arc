@@ -1,0 +1,219 @@
+.halfCircle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -12.5px;
+  right: -5px;
+  background: #f4f7fc;
+  border-radius: 50%;
+  z-index: 2;
+  border: 1px solid #e0e5f3;
+}
+
+.halfCircleBottom {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: -12.5px;
+  right: -5px;
+  background: #f4f7fc;
+  border-radius: 50%;
+  z-index: 2;
+  border: 1px solid #e0e5f3;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 40px);
+  background: #e0e5f3;
+  z-index: 1;
+  right: 7px;
+  top: 20px;
+}
+
+.couponBoxMargin {
+  width: 100%;
+  height: 100%;
+  min-height: 110px;
+  max-width: 400px;
+  min-width: 325px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.couponBox {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  height: 100%;
+}
+
+.borderBox {
+  border: 1px solid #e0e5f3;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.couponInfo {
+  position: relative;
+  text-align: left;
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #636363;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 25px 5px 5px;
+}
+
+.couponInfo p,
+.couponInfo .progressBox {
+  margin: 5px 0;
+}
+
+.couponInfo h3 {
+  margin: 0;
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  font-size: 20px;
+  color: #ccc;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.infoIcon:hover {
+  color: #00ab55;
+}
+
+.couponDetailRow {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.couponDetailLabel {
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.couponDetailValue {
+  text-align: left;
+  display: inline-block;
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+
+
+}
+
+.condition {
+  margin-top: 30px;
+}
+
+.conditionContent {
+  margin-top: 15px;
+}
+
+.condition p {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  /* overflow: auto; */
+  text-align: justify;
+  margin: 5px 0 0 0;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 !important;
+}
+
+.promotionTitle {
+  font-size: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: ggsm;
+  text-overflow: ellipsis;
+  color: #000000;
+  word-break: break-word;
+}
+
+.expiredDate {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px !important;
+  line-height: 18px;
+  font-family: ggsr;
+  color: #797979;
+}
+
+.iconCopy {
+  cursor: pointer;
+  color: #C0C0C0;
+  font-size: 18px;
+  margin-left: 6px;
+
+}
+
+.wrapInfoCode {
+  display: flex;
+  align-items: center;
+  /* max-height: 18px; */
+}
+
+.iconCopyDone {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #00ab55;
+}

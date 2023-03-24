@@ -1,0 +1,107 @@
+.wrapLoad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapLoad>p {
+  color: #2ecc71;
+  font-family: googlesansmedium;
+  font-weight: 700;
+}
+
+.loading-3 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  animation: loading-3 4s infinite linear;
+}
+
+.loading-3 i {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: red;
+  display: block;
+  animation: loading-3-sub 2s infinite linear;
+}
+
+.loading-3 i:nth-child(1) {
+  background: #2ecc71;
+
+}
+
+.loading-3 i:nth-child(2) {
+  left: 22px;
+  background: #2ecc71;
+  animation-delay: .5s;
+
+}
+
+.loading-3 i:nth-child(3) {
+  top: 22px;
+  background: #2ecc71;
+  animation-delay: .5s;
+}
+
+.loading-3 i:nth-child(4) {
+  top: 22px;
+  left: 22px;
+  background: #2ecc71;
+  animation-delay: 1s;
+}
+
+.animateTS {
+
+  background-image: linear-gradient(-225deg,
+      #05ca7e 0%,
+      #08daac 29%,
+      #13ffb4 67%,
+      #06f67a 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-3-sub {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

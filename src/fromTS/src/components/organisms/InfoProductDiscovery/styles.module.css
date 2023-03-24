@@ -1,0 +1,30 @@
+.info {
+  max-height: 50px;
+  overflow: hidden;
+}
+.modal {
+  padding: 0 !important;
+  /* border-radius: 30px !important; */
+}
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.favWrapper {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background: #00b46e !important;
+  color: white;
+  border-radius: 30px;
+  padding: 7px 15px;
+}
+.title {
+  font-weight: bold;
+}
+.seeMore {
+  font-size: 14px;
+  font-weight: bold;
+}

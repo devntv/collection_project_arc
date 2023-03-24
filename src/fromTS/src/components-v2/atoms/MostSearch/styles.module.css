@@ -1,0 +1,14 @@
+.mostSearch {
+  padding: 2px 16px;
+  background: #f2f4fd;
+  border-radius: 16px;
+  color: #0e1983;
+  margin-right: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: googlesansregular;
+  margin: 2px 12px 2px 0px;
+  text-transform: none !important;
+}

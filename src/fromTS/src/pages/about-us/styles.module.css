@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper * {
+  font-family: ggsr;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 32px;
+  color: #00b46e;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center !important;
+}

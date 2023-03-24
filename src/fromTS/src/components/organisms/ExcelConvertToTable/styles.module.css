@@ -1,0 +1,64 @@
+.hiddenRow {
+  display: none !important;
+}
+.hiddenWidth {
+  padding: 0 !important;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* text-align: center !important; */
+}
+.data a {
+  color: rgb(21, 132, 196);
+}
+
+.header a {
+  cursor: text;
+}
+.headerTitle {
+  border-right: none !important;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.styleHeaderTitle {
+  background-color: #548235;
+
+  padding: 0 !important;
+  overflow-x: auto;
+  text-align: left !important;
+}
+.styleHeaderTitle a {
+  text-align: left;
+  cursor: text !important;
+  color: #ffffff;
+  font-weight: 600;
+}
+.styleHeader {
+  background-color: #c6e0b4;
+  width: 100%;
+  font-size: 30px;
+}
+.styleHeader a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.styleHeader td {
+  color: black;
+  font-weight: 600;
+  border-right: 1px solid #cecdcd;
+  text-align: left;
+}
+.styleHeader [class*='MuiTableCell-root'] {
+  padding: 0px 8px !important;
+}
+.styleData [class*='MuiTableCell-root'] {
+  padding: 0px 8px !important;
+}
+.Datanull {
+  color: red !important;
+}
+.styleData td {
+  border-right: 1px solid #cecdcd;
+}

@@ -1,0 +1,24 @@
+.skeContainer {
+  padding: 0 10px;
+}
+
+.skeContainer [class*='pagingSkeleton'] {
+  margin-top: 20px;
+}
+
+@media (min-width: 960px) {
+  .skeContainer [class*='style_item'] {
+    max-width: 25% !important;
+    flex-basis: 25% !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .skeContainer [class*='style_item'] {
+    max-width: 20% !important;
+    flex-basis: 20% !important;
+  }
+}
+.pagging [class*='MuiPagination-ul'] {
+  justify-content: center;
+}

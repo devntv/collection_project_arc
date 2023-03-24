@@ -1,0 +1,86 @@
+.d_flex {
+  display: flex;
+}
+.footerMobile {
+  background-image: url('/images/mobile/footer/footer-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(51px + 24px);
+  z-index: 99;
+}
+.footerMobile_container {
+  padding: 0;
+}
+.footerMobile_item span {
+  color: #c0c0c0;
+}
+
+.footerNarbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footerNarbar span {
+  font-size: 9px;
+  font-weight: 400;
+}
+.footerNarbar span span {
+  margin-bottom: 5px !important;
+}
+.footerNarbarIcon {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  font-size: 24px;
+  color: #797979;
+}
+.active image {
+  background-color: #09884d;
+}
+.mainIcon {
+  position: absolute;
+  top: -50%;
+  background-color: #fff !important;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #e4e4eb;
+}
+.mainIcon > span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.mainIcon span img {
+  transform: scale(0.7);
+}
+.changeColor .mainIcon span img,
+.changeColor span img {
+  filter: brightness(0) saturate(100%) invert(40%) sepia(17%) saturate(2759%) hue-rotate(106deg) brightness(94%) contrast(93%);
+}
+.changeColor [class*='MuiBottomNavigationAction-label'] {
+  color: #09884d;
+}
+.bottomNavbar a {
+  min-width: 40px;
+}
+.div_buttons {
+  text-align: center;
+  padding: 12px 12px 12px 22px;
+}
+.bottom_bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px -3px 20px rgba(0, 0, 0, 0.08);
+  z-index: 99;
+}

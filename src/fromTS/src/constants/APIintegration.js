@@ -1,0 +1,35 @@
+import { API_CHAT_DOMAIN } from 'sysconfig';
+
+const URI_CHAT = '/integration/chat/v1';
+const URI_FILE_MANAGER = '/core/file-manager/v1';
+
+export const WEB_SOCKET_CHAT = `wss://${API_CHAT_DOMAIN}/integration/chat/v1/web-socket`;
+export const LIST_MESSAGE = `${URI_CHAT}/message/list`;
+export const LIST_FOR_CUSTOMER = `${URI_CHAT}/conversation/list-for-customer`;
+export const CUSTOMER_TO_CS = `${URI_CHAT}/message/customer-to-cs`;
+export const GUEST_TO_CS = `${URI_CHAT}/message/guest-to-cs`;
+export const PING = `${URI_CHAT}/ping`;
+export const PING_FOR_GUEST = `${URI_CHAT}/ping-for-guest`;
+export const SEEN = `${URI_CHAT}/conversation/seen`;
+export const DATE = `${URI_CHAT}/message/date`;
+export const DATE_GUEST = `${URI_CHAT}/message/date-for-guest`;
+export const SEARCH = `${URI_CHAT}/message/search`;
+export const LIST_SCROLL_DOWN = `${URI_CHAT}/message/list-scroll-down`;
+export const LIST_SCROLL_DOWN_GUEST = `${URI_CHAT}/message/list-scroll-down-for-guest`;
+export const FILE_RESUMABLE = `${URI_FILE_MANAGER}/upload/file-resumable`;
+export const FILE_RESUMABLE_GUEST = `${URI_FILE_MANAGER}/upload/file-resumable-without-auth`;
+export const LIST_FILE = `${URI_CHAT}/conversation/resource`;
+export const LIST_FILE_GUEST = `${URI_CHAT}/conversation/resource-for-guest`;
+export const SEARCH_FUZZY_CHAT = `${URI_CHAT}/search/fuzzy`;
+export const SEARCH_TICKET = `${URI_CHAT}/search/ticket`;
+export const ADD_GUEST = `${URI_CHAT}/guest/upsert`;
+export const LIST_FOR_GUEST = `${URI_CHAT}/conversation/list-for-guest`;
+export const MESSAGE_FOR_GUEST = `${URI_CHAT}/message/list-for-guest`;
+export const RATING_STATUS = `${URI_CHAT}/topic/rating-status`;
+export const GUEST_RATING_STATUS = `${URI_CHAT}/topic/rating-status-for-guest`;
+export const RATING = `${URI_CHAT}/topic/rating`;
+export const GUEST_RATING = `${URI_CHAT}/topic/guest-rating`;
+export const CONFIG = `${URI_CHAT}/configuration/list`;
+export const LIST_LINK = `${URI_CHAT}/conversation/tag/list`;
+export const ONE = `${URI_CHAT}/message/one`;
+export const ONE_GUEST = `${URI_CHAT}/message/one-for-guest`;

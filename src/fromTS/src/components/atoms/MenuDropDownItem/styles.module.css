@@ -1,0 +1,11 @@
+.root {
+  padding: 10px 30px !important;
+  font-size: 1rem !important;
+}
+.root:hover {
+  color: #00b46e !important;
+}
+
+.root:hover svg {
+  color: #00b46e !important;
+}

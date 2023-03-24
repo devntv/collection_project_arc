@@ -1,0 +1,65 @@
+.like {
+  color: #08ac60;
+  font-size: 24px !important;
+}
+
+.icon:hover * {
+  color: #00b46e;
+  border-color: #00b46e;
+  background-color: transparent;
+}
+
+
+.icon_wrapper {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.favorite_icon {
+  color: #0cba69;
+}
+
+.favorite_icon_wrapper {
+  position: absolute;
+  top: -10px;
+  right: -4px;
+  color: #0cba69;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.favorite_icon_wrapper:hover {
+  color: #0cba69;
+}
+
+@media (min-width: 600px) {
+  .favorite_icon_withnew {
+    font-size: 28px;
+  }
+
+  .favorite_icon_withoutnew {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .favorite_icon_wrapper {
+    font-size: 28px;
+  }
+
+  .favorite_icon_withoutnew {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .favorite_icon_wrapper {
+    font-size: 28px;
+  }
+
+  .favorite_icon_withoutnew {
+    font-size: 26px;
+  }
+}

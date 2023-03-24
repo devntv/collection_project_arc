@@ -1,0 +1,75 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 30px 8px;
+  border-radius: 10px !important;
+}
+
+.account_form_input {
+  height: 24px;
+}
+
+.form_control {
+  width: 100%;
+  margin-top: 15px !important;
+}
+
+.required {
+  color: red;
+}
+
+.input_label {
+  color: black !important;
+  font-weight: 450 !important;
+  font-size: 1rem !important;
+  min-width: 400px;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  color: black;
+  justify-content: center;
+}
+
+.input_adornment {
+  font-size: 16;
+  padding: 8px 12px;
+}
+
+.input_adornment:focus {
+  border-color: #00b46e;
+}
+
+.padding_none {
+  padding: 0 !important;
+}
+
+.padding_none>.MuiOutlinedInput-adornedEnd {
+  padding-right: 0 !important;
+}
+
+.form_control [class*='MuiFormLabel-root'] {
+  line-height: 1 !important;
+  position: relative !important;
+}
+
+.form_control [class*='MuiInputBase-root'] {
+  margin: .25rem 1rem 1rem 0 !important;
+}
+
+.form_control [class*='MuiInputBase-multiline'] {
+  margin: 0 !important;
+}
+
+
+.error {
+  color: rgb(255, 23, 68) !important;
+}
+
+@media (max-width: 300px) {
+  .input_label {
+    min-width: 100px;
+  }
+}

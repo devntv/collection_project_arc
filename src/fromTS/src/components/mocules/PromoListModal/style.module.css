@@ -1,0 +1,109 @@
+.confirm_modal_wrap {
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  width: 35.5em;
+  /* padding: 2em; */
+  max-width: 100%;
+  padding: 1.5em;
+  border: none;
+  border-radius: 1.25em;
+  background: #f4f7fc;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: 0;
+  min-height: 70vh;
+}
+
+.confirm_modal_wrap svg {
+  cursor: pointer;
+}
+
+.counpon_list {
+  max-height: 70vh !important;
+  overflow-y: scroll !important;
+  overflow-x: none !important;
+  margin-top: 20px;
+  width: 530px;
+}
+
+.coupon_card_grid {
+  margin: 12px 0 !important;
+  padding: 0 !important;
+  padding-right: 25px !important;
+}
+
+.close {
+  position: absolute;
+  top: 22px;
+  right: 12px;
+  width: 1.3em;
+  height: 1.3em;
+}
+
+.counpon_list [class*='MuiGrid-spacing-xs-1'] {
+  width: 100% !important;
+  /* margin-left: 0 !important;
+  margin-right: 0 !important; */
+}
+
+.del_promo {
+  cursor: pointer;
+}
+
+.not_yet {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50% 0;
+}
+
+@media (max-width: 767px) {
+  .confirm_modal_wrap {
+    max-height: 80vh;
+    overflow: hidden;
+    padding: 15px;
+  }
+
+  .coupon_card_grid {
+    margin: 12px 0 !important;
+    padding: 0 !important;
+    padding-right: 0px !important;
+  }
+
+  .counpon_list_wapper {
+    max-height: calc(80vh - 150px);
+    overflow: hidden;
+  }
+
+  .counpon_list {
+    max-height: calc(80vh - 150px) !important;
+  }
+
+  .confirm_modal_wrap h2 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .confirm_modal_wrap .button {
+    width: 100%;
+  }
+
+  .counpon_list {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .counpon_list>div {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .confirm_modal_wrap {
+    min-height: 700px;
+  }
+}

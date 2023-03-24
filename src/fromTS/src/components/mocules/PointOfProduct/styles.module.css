@@ -1,0 +1,76 @@
+.wrapPoint > div {
+  min-width: 19px;
+  min-height: 19px;
+  max-width: 26px;
+  max-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background-color: #ddf4ea;
+  margin-right: 6px;
+  overflow: hidden;
+}
+.wrapPointLarge > div {
+  max-width: 26px;
+  max-height: 26px;
+}
+.wrapPoint > div p {
+  font-size: 12px;
+  color: #0e1983;
+  font-family: googlesansmedium;
+}
+.pointTextSmall > div p {
+  font-size: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.titlePoint {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #0e1983;
+  margin-right: 2px;
+}
+.coefficient {
+  color: #09884d;
+  font-family: googlesansmedium !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.pointMultiplierWrap {
+  background-color: #edfdf6;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  margin-left: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.point {
+  margin-right: 5px;
+  font-family: googlesansmedium !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #0e1983;
+}
+
+/* using for mobile v2 */
+.point_mv2 {
+  font-size: 14px;
+}
+.pointMultiplierWrap_mv2 {
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+}
+.coefficient_mv2 {
+  font-size: 14px;
+}

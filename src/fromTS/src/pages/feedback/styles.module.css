@@ -1,0 +1,25 @@
+.orderStatus {
+  margin-top: 20px;
+  padding: 10px;
+}
+.container {
+  padding: 0 15px;
+}
+@media (max-width: 767px) {
+  .orderStatus {
+    display: block;
+    padding: 0;
+  }
+  .title {
+    font-size: 20px !important;
+  }
+  .form {
+    width: 100%;
+  }
+  .form [class*='tracking-order__OrderDetailGrid'] {
+    padding: 0 15px;
+  }
+  .form [class*='tracking-order__InputOrder'] {
+    width: calc(100% - 80px);
+  }
+}

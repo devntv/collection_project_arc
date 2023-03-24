@@ -1,0 +1,71 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 24px;
+  border-radius: 10px!important;
+  margin-bottom: 24px;
+}
+
+
+.title {
+  color: black;
+  margin : 0;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500!important;
+}
+
+.checkbox_color {
+  color: #00b46e!important;
+}
+
+.checkbox {
+  padding: 5px!important;
+}
+
+.bank_info {
+  margin-left: 24px;
+  background-color: #f4f7fc!important;
+  border: 1px solid #c3ccdc!important;
+  border-radius: 6px!important;
+  font-weight: 500!important;
+}
+
+.bank_info_label {
+  color: #919aa3;
+  text-align: right;
+  min-width: 7em;
+  max-width: 7em;
+  margin-right: 1em;
+}
+
+.bank_info_content {
+
+}
+
+.fw500 {
+  font-weight: 500!important;
+}
+
+.d_flex {
+  display: flex !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.text_muted {
+  color: #919aa3 !important;
+  font-weight: 400!important;
+  padding: 10px 0;
+}
+.subTitle{
+  margin-left: 24px;
+  color: #919aa3;
+  margin-bottom: 7px;
+}
+@media (max-width: 767px) {
+  .root{
+    padding: 15px;
+  }
+}

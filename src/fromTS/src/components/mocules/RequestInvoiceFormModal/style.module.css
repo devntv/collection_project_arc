@@ -1,0 +1,118 @@
+.wrap {
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 900px;
+  background: #f4f7fc;
+  overflow: auto;
+  outline: 0;
+}
+
+@media (min-width: 767px) {
+  .modal {
+    width: 45%;
+    margin: auto;
+  }
+}
+
+.container {
+  padding: 15px;
+}
+
+.title {
+  background: #00b46e;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: #565656;
+  font-weight: 400;
+}
+
+.text_body {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0 !important;
+}
+
+.button_find {
+  padding: 3px !important;
+}
+
+.text_red {
+  display: block;
+  color: red;
+}
+
+.button_send {
+  /* color: ; */
+  background: #f4f7fc !important;
+  padding: 25px;
+}
+
+.reason_select {
+  height: 2.4em !important;
+}
+
+.reason_select [class*='MuiInputBase-input'] {
+  padding: 0 0 0 15px !important;
+  height: 100%;
+}
+
+.container [class*='input__info'] {
+  height: 50px !important;
+}
+
+.textarea,
+.imagesField {
+  margin-top: 10px !important;
+}
+
+.info_group {
+  margin-bottom: 20px !important;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rug-handle-icon {
+  width: 70px;
+}
+
+.customText {
+  margin-bottom: 5px;
+}
+
+.imagesField [class*='info_form_grid'] {
+  margin-bottom: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #00b46e !important;
+}
+
+.helper_text {
+  margin: 20px 0;
+}
+
+.titleMobile {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.notifi_list li {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.notifi_list li::marker {
+  font-size: .7rem;
+}

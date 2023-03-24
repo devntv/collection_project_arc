@@ -1,0 +1,4 @@
+.root {
+  padding-left: var(--mobile-container-spacing);
+  padding-right: var(--mobile-container-spacing);
+}

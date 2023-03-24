@@ -1,0 +1,175 @@
+/* STYLES ITEMS */
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.itemContainer + .itemContainer {
+  margin-left: 15px;
+}
+
+.wrapperIcon {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 15px;
+  border: 1px solid #e9e9e9;
+}
+
+.label {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #797979;
+  font-family: ggsr;
+}
+
+/* CONTAINER */
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* MOST POPULAR */
+.rootPopular {
+  padding-left: var(--mobile-container-spacing);
+  background-color: #ffff;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+.popularContainer {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.popularContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.popularItemContainer {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  width: 128px;
+  border-radius: 8px;
+  border: 1px solid #e9e9e9;
+  background-color: #ffff;
+  padding: 12px 8px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.popularItemContainer + .popularItemContainer {
+  margin-left: 11px;
+}
+
+.imagesPopular {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.labelPopular {
+  text-align: center;
+  color: #797979;
+}
+
+.imagesPopular {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.labelPopular {
+  text-align: center;
+  color: #797979;
+}
+
+/* GROUP PRODUCT BLOCK  */
+
+.headerProduct {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerProductTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.textHeader {
+  font-family: ggsm;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.dateRange {
+  font-family: ggsm;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #dc5c00;
+}
+
+.wrapperTimer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.wrapperLink {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.viewMore {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0e1983;
+  line-height: 18px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 5px;
+  font-family: ggsm;
+}
+
+.viewCampaign {
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0e1983;
+  line-height: 18px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 5px;
+  font-family: ggsm;
+}

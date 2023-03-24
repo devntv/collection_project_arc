@@ -1,0 +1,38 @@
+.tagMobile {
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  line-height: 15px;
+  vertical-align: top;
+  cursor: pointer;
+  padding: 4px 8px;
+  height: 25px;
+  padding: 4px 12.5px;
+  width: 25px;
+}
+
+.tag_quantity {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #09884d;
+  border-radius: 50%;
+  background-color: #f2f4fd;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* style for mobile v2 */
+
+.tag_quantity_mv2 {
+  height: 17px;
+  width: 12px;
+  padding: 4px 10.5px;
+}
+
+.chatMobile_moreTag {
+  min-width: 13px;
+}

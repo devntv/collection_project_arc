@@ -1,0 +1,147 @@
+.container {
+  max-width: 320px;
+  height: 426px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapperImg {
+  border: 1px solid #dcdbdb;
+  border-radius: 12px;
+  width: fit-content;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  height: 320px;
+}
+
+.wrapperImg span {
+  border-radius: 12px;
+  height: 100% !important;
+}
+
+.wrapperImg [class*='openImg'] {
+  padding: 16px;
+  height: 100%;
+}
+
+.wrapperImg [class*='openImg'] span span {
+  background: white !important;
+  border-radius: 12px;
+}
+
+.wrapperImg [class*='openImg'] span {
+  border-radius: 12px;
+}
+
+.thumbnail {
+  display: inline;
+  padding-right: 8px;
+}
+
+.thumbnail::-webkit-scrollbar {
+  display: none;
+}
+
+.thumbnailImage {
+  border: 1px solid #dcdbdb !important;
+  border-radius: 8px;
+  padding: 8px !important;
+  height: 42px !important;
+  width: 42px !important;
+}
+
+.thumbnailImage:hover {
+  border: 1px solid #0bd577 !important;
+}
+
+.thumbnailSelected {
+  border: 1px solid #0bd577 !important;
+  border-radius: 8px;
+  padding: 8px !important;
+  opacity: 0.8;
+}
+
+.slider [class*='slick-prev'],
+.slider [class*='slick-next'] {
+  color: #afafaf;
+  top: 20px;
+}
+
+.slider [class*='slick-prev']:hover,
+.slider [class*='slick-next']:hover {
+  color: #000;
+}
+
+.slider [class*='slick-prev'] {
+  left: -4px;
+}
+
+.slider [class*='slick-next'] {
+  right: -4px;
+}
+
+.slider {
+  padding: 12px 16px;
+  width: 100%;
+}
+
+.imageMain {
+  /* height: 300px !important;
+  width: 300px !important; */
+  object-fit: contain;
+}
+
+.imageNotFound {
+  height: 100% !important;
+  width: 100% !important;
+  background: #f0f0f0;
+}
+
+.modalBackdrop {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalButton {
+  height: 40px;
+  width: 40px;
+}
+
+/* .modalImage {
+  margin: 0 5px;
+  height: auto !important;
+  width: auto !important;
+  border-radius: 20px;
+  object-fit: contain;
+  min-width: auto !important;
+  max-width: 568px !important;
+  max-height: 568px !important;
+  padding: 20px !important;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .modalImage {
+    padding: 20px !important;
+    width: 100% !important;
+  }
+}
+.modalImage:focus {
+  outline: none;
+} */
+
+@media (max-width: 767px) {
+  .imgButtonBase {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+  }
+}
+
+.descImg {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+}

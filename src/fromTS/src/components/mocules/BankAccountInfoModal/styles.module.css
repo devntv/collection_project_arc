@@ -1,0 +1,16 @@
+.address_dialog [class*='MuiDialog-paper'] {
+  width: 530px;
+}
+
+.address_dialog [class*='MuiDialogActions-root'] {
+  justify-content: center !important;
+}
+
+.close_button {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+}
+.address_dialog [class*='MuiOutlinedInput-root'] {
+  margin-bottom: 0 !important;
+}

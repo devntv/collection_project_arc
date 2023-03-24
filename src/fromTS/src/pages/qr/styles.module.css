@@ -1,0 +1,315 @@
+.wrapContainer {
+    margin: 20px 0px;
+  }
+  .permission-container {
+    text-align: center;
+    padding: 40px 0px;
+    min-height: 50vh;
+  }
+  .error {
+    color: #f00946;
+    font-style: italic;
+  }
+  .scan {
+    background-color: #0cba69;
+    color: #ffffff;
+    font-family: googlesansregular;
+  }
+  .scan:hover {
+    background-color: #0cba69;
+    color: #383535;
+  }
+  .camera {
+    display: block;
+    margin: auto;
+    width: 25%;
+  }
+  
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #4d61c7;
+    margin: 10px 0px 20px 0px;
+    font-family: googlesansmedium;
+  }
+  
+  .wrapInfor {
+    border: 1px solid #e0e6f3;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  .wrapProduct {
+    margin: 0px 20px;
+    /* border: 1px solid #e0e6f3;
+    border-radius: 12px; */
+    width: 320px;
+    max-width: 320px;
+  }
+  .productImg {
+    text-align: center;
+  }
+  .titleProduct {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-family: googlesansmedium;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .titleInfor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #586189;
+    margin-bottom: 4px;
+    font-family: googlesansregular;
+  }
+  
+  .inforIngredient {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inforIngredient p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #0e1983;
+    font-family: googlesansregular;
+  }
+  
+  .Service {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .Service div {
+    margin-right: 10px;
+  }
+  
+  .serviceInfor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .serviceInfor img {
+    margin-right: 4px;
+  }
+  
+  .Wrapservice {
+    background-color: #f2f4fd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+  }
+  
+  .Wrapservice > div {
+    color: #09884d;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-family: googlesansregular;
+  }
+  
+  .WrapGenInfor {
+    margin-top: 8px;
+  }
+  
+  .genInfor {
+    font-family: googlesansmedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
+  
+  .genInforValue {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: googlesansregular;
+    text-transform: capitalize;
+    color: #586189;
+  }
+  .inputQr {
+    width: 100%;
+  }
+  /* .price p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: googlesansmedium;
+    color: #f00946;
+  } */
+  
+  .desciption {
+    margin: 10px 0px 0px 20px;
+  }
+  
+  .descTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-family: googlesansmedium;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .descContent p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: googlesansregular;
+    color: #383535;
+  }
+  .descContent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: googlesansregular;
+    color: #383535;
+  }
+  .titleEvent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: googlesansregular;
+    color: #383535;
+    padding-bottom: 16px;
+  }
+  .allow {
+    background-color: #00b46e;
+    color: #ffffff;
+    padding: 4px 16px;
+    border-radius: 20px;
+  }
+  .allow:hover {
+    background-color: #00b46e;
+    color: #383535;
+  }
+  .lock {
+    background-color: #c3c3c3;
+    margin-left: 12px;
+    color: #ffffff;
+    padding: 4px 26px;
+    border-radius: 20px;
+  }
+  .lock:hover {
+    background-color: #c3c3c3;
+    color: #383535;
+  }
+  .indicator {
+    background-color: #0cba69;
+  }
+  .ingredient {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ingredient p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: googlesansregular;
+    text-transform: capitalize;
+    color: #586189;
+  }
+  .ingredient a {
+    padding: 5px 0px;
+  }
+  .ingredientName {
+    color: #0cba69;
+    font-size: 14px;
+    font-family: googlesansregular;
+    margin-right: 10px;
+  }
+  .manuafacturer {
+    color: #0cba69;
+    font-size: 14px;
+    font-family: googlesansregular;
+    padding: 0;
+  }
+  .tabInfor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-family: googlesansmedium;
+  }
+  .category {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .category a {
+    color: #0cba69;
+    font-size: 14px;
+    font-family: googlesansregular;
+    padding: 0;
+    margin-right: 6px;
+    background: #f2f4fd;
+    border-radius: 4px;
+    padding: 2px 4px !important;
+    margin-bottom: 2px;
+  }
+  .signin_btn {
+    font-family: googlesansregular;
+    padding: 6px 16px;
+    border-radius: 100px !important;
+  }
+  .btn {
+    width: 100%;
+    background-color: #0cba69 !important;
+    font-family: googlesansregular;
+    border-radius: 100px !important;
+  }
+  .seedetail_btn {
+    padding: 6px 16px;
+    color: black !important;
+    background-color: white !important;
+    border: #0cba69 1px solid;
+  }
+  
+  @media (max-width: 960px) {
+    .wrapProduct {
+      margin: 0 auto;
+    }
+    .titleProduct {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .proudctInfor {
+      padding: 10px 0px 0px 20px;
+    }
+  }
+  @media (max-width: 585px) {
+    .category a {
+      padding: 0;
+      margin-top: 4px;
+      background-color: transparent;
+    }
+  }
