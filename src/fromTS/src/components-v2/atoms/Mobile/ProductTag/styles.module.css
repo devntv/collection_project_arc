@@ -1,0 +1,12 @@
+.rootTag {
+  padding: 0px 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  height: 16px;
+  font-size: 12px;
+  flex-shrink: 0;
+}

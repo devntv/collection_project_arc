@@ -1,0 +1,24 @@
+.textRed {
+  color: red;
+}
+
+.stepImage {
+  width: 100%;
+  position: relative;
+  height: 300px;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 50px 10px;
+  }
+
+  .orderedList {
+    -webkit-padding-start: 0 !important;
+            padding-inline-start: 0 !important;
+  }
+}

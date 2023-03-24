@@ -1,0 +1,63 @@
+.input_icon svg {
+    color: #3b438f;
+  }
+  
+.input,
+.province {
+    margin: 0 1rem 1rem 0rem !important;
+    font-family: googlesansregular;
+  }
+.locationContainer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}  
+.wrapLocation {
+  min-width: 500px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.textSellect {
+  font-family: googlesansmedium;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+.inputSellect {
+  border-radius: 30px !important;
+}
+.province [class*='MuiInputBase-input'] {
+  height: auto !important;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #00AB55;
+  color: #fff;
+  width: 280px;
+}
+.wrapBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #13d072;
+  color: #fff;
+}
+.province [class*='MuiSelect-icon'] {
+  padding: 0;
+  right: 14px;
+  color: #3b438f;
+}
+.formSellect > div {
+  border-radius: 30px !important;
+}
+@media (max-width: 480px) {
+  .wrapLocation {
+    min-width: 300px;
+   min-height: 200px;
+  }
+}

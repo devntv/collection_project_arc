@@ -1,0 +1,30 @@
+.root_input {
+  height: 1.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+  /* margin-left: 0.25em;
+    margin-right: 0.25em; */
+  font-weight: 500;
+  background-color: white;
+  min-width: 0;
+  border-radius: 2rem !important;
+  border: 1px solid #ced4da !important;
+  width: 100%;
+  padding: 20px;
+}
+
+.input {
+  text-align: left;
+  color: #495057;
+}
+
+.root_input_column {
+  width: 30% !important;
+}
+
+.focus {
+  border: 1px solid #35ffb0 !important;
+  box-shadow: 0 0 0 0.2rem rgb(0 180 110 / 25%) !important;
+  color: #495057 !important;
+  outline: 0 !important;
+  border-color: transparent !important;
+}

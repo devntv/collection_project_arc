@@ -1,0 +1,71 @@
+.container {
+  background-color: #f4f7fc;
+  margin-bottom: 40px;
+}
+.containerMobile {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.image {
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-bottom: 85px;
+  }
+}
+.homeContainer {
+  margin-top: 20px;
+}
+.generalInfo {
+  padding: 20px 15px;
+  text-align: justify;
+  font-family: 'googlesansregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  box-shadow: none;
+}
+.titleIntro {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.descriptionWrapper {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+.description {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  color: #000000;
+}
+.description a {
+  cursor: pointer;
+}
+.btnCollapse {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0e1983;
+  padding: 0;
+}
+.warpperBtnCollapse {
+  margin: 12px 15px 20px;
+}
+.mobileContainer {
+  background-color: #f4f7fc;
+}

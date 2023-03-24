@@ -1,0 +1,77 @@
+.info_label {
+  color: #343a40 !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+.info_value {
+  color: #919aa3 !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.ellipsis_2_line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.ellipsis_1_line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info_container {
+  padding-right: 0 !important;
+}
+
+.info_left_paper {
+  /* padding-bottom: 52px !important; */
+  height: 100%;
+}
+
+.info_label span {
+  color: #919aa3 !important;
+}
+
+.break_down {
+  word-break: break-word;
+}
+
+.info {
+  padding: 0;
+}
+
+.info_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .info_inner_grid {
+    display: block !important;
+    padding: 0 !important;
+  }
+  .info_container,
+  .info_adress,
+  .info_address,
+  .info_inner_grid,
+  .full_width [class*='MuiGrid-container'] {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+  }
+}
+.bank_info {
+  margin-top: 10px;
+  margin-left: 33px;
+  margin-right: 33px;
+  background-color: #f4f7fc !important;
+  border: 1px solid #c3ccdc !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+}

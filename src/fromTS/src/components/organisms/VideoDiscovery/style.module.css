@@ -1,0 +1,23 @@
+.video_responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video_responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.play_wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

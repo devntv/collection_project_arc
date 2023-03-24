@@ -1,0 +1,100 @@
+.input {
+  padding-left: 0.5rem !important;
+  margin-right: 1rem !important;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  color: #212529 !important;
+  background-color: #f9b514 !important;
+  border-color: #f9b514 !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  border-radius: 50px !important;
+}
+
+.text_danger {
+  color: #dc3545 !important;
+}
+
+.button_send_sms {
+  color: #fff !important;
+  background-color: #1d2223 !important;
+  border-color: #17a2b8 !important;
+  padding: 0.25rem 0.5rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5;
+  border-radius: 50px !important;
+}
+
+.ticket_status_chip {
+  color: white !important;
+  font-weight: 550;
+}
+
+.ticket_status_chip [class*='MuiChip-icon'] {
+  color: white;
+}
+.ticket_status_chip [class*='MuiSvgIcon-root'] {
+  font-size: 1.15rem;
+}
+
+.reason_button[class*='MuiButton-root'] {
+  padding: 0 12px;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.bottom_square {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.detail_text {
+  color: #17a2b8 !important;
+  text-transform: none !important;
+}
+
+.justify_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.date_time [class*='MuiInput-underline']:before {
+  border: none !important;
+  height: 25px;
+}
+
+.from_time {
+  margin-bottom: 20px;
+  /* margin-right: 20px; */
+  height: 25px;
+  line-height: 1rem;
+}
+
+.to_time {
+  /* margin: 0 20px 20px 20px; */
+  height: 25px;
+  line-height: 1rem;
+}
+
+@media (max-width: 442px) {
+  .slash {
+    display: none;
+  }
+}
+
+@media (max-width: 434px) {
+  .slash {
+    display: none;
+  }
+
+  .to_time {
+    margin: 0 300px 20px 0;
+  }
+}

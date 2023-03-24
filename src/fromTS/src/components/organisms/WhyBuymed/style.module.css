@@ -1,0 +1,47 @@
+.why_buymed_wrapper {
+  padding: 3em 0;
+  background: linear-gradient(102.04deg, #00b46e 0%, #9ac100 100%);
+}
+
+.reason_item {
+  border-right: 1px solid #c3c2c2;
+}
+
+.reason_item:last-child {
+  border-right: 0;
+}
+
+.reason_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.reason_content > div {
+  text-align: center;
+}
+.icon {
+  color: #fff;
+  font-size: 80px !important;
+}
+@media (min-width: 960px) {
+  .reason_content {
+    margin-top: 30px !important;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 959px) {
+  .icon {
+    font-size: 70px !important;
+  }
+  .reason_item {
+    border-right: none;
+    margin-bottom: 30px !important;
+    display: flex !important;
+    /* justify-content: flex-start; */
+  }
+  .reason_content {
+    align-items: flex-start;
+  }
+}

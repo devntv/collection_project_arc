@@ -1,0 +1,33 @@
+.root {
+  --height: 12px;
+  flex: 1;
+  margin-right: 10px;
+  background-color: #E9E9E9;
+  color: #D4323B;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--height);
+  position: relative;
+  overflow: hidden;
+}
+
+.percentProgress {
+  background-color: #FBC9BE;
+  width: 10px;
+  height: var(--height);
+  flex: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.percentLabel {
+  position: absolute;
+  z-index: 3;
+  bottom: 0.5px;
+  font-size: 9px;
+  line-height: var(--height);
+}

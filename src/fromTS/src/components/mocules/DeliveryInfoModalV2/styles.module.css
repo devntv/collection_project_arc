@@ -1,0 +1,24 @@
+.address_dialog [class*='MuiDialog-paper'] {
+  width: 630px;
+  border-radius: 20px;
+}
+
+.address_dialog [class*='MuiDialogActions-root'] {
+  justify-content: center !important;
+}
+
+.address_dialog [class*='MuiDialogContent-root'] {
+  padding: 8px 12px;
+}
+
+.close_button {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+}
+.address_dialog [class*='MuiOutlinedInput-root'] {
+  margin-bottom: 0 !important;
+}
+.address_group {
+  width: -webkit-fill-available;
+}

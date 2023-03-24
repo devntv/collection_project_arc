@@ -1,0 +1,73 @@
+.search_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+  transition: all 1s ease-in-out;
+  background-color: #fff;
+  padding: 0 16px;
+}
+.search_wrap > div {
+  align-items: center;
+}
+.gridSearch_container {
+  display: flex;
+  align-items: center;
+}
+.gridSearch_container form {
+  width: 100%;
+}
+.gridSearch_container > form > div > div {
+  width: 100%;
+}
+.root_input {
+  border: 1px solid #08ac60;
+  padding: 7px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+}
+.root_input > div::before,
+.root_input > div::after {
+  display: none;
+}
+.root_input > div > input::placeholder {
+  font-size: 14px;
+}
+.root_input > div {
+  padding: 0;
+}
+.root_input > div > fieldset {
+  border: none;
+  border-color: transparent;
+  box-shadow: none !important;
+}
+.searchIcon {
+  border-radius: 50%;
+  background-color: #08ac60;
+  padding: 4px;
+}
+.searchIcon span {
+  transform: scale(0.8);
+}
+.btnBack {
+  padding-left: 0;
+  padding-right: 0;
+}
+.btnBack > span:first-child > span {
+  width: 16px !important;
+}
+.clearIcon {
+  padding: 2px;
+}
+.loadingContainer {
+  right: 4%;
+  display: flex;
+  padding: 2px;
+}
+.iconClearText {
+  font-size: 0.9rem !important;
+}

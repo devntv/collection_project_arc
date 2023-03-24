@@ -1,0 +1,264 @@
+.voucherImg {
+    height: auto;
+    flex: 2 1 0%;
+    /* width: 100%; */
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+
+}
+
+.salePricePoint {
+    width: 100%;
+    word-wrap: break-word;
+
+}
+
+.salePricePoint>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #292929;
+    font-family: ggsm;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.lineClamp div p {
+    margin: 4px 0px 4px 0px !important;
+
+}
+
+.dateReset {
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+}
+
+.salePricePoint .pointsNeed p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #292929;
+    font-family: ggsr;
+    margin-top: 4px;
+}
+
+.date span {
+    font-family: ggsr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #797979;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.date p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: ggsr;
+    color: #292929;
+    margin-left: 4px;
+}
+
+.date .infoVoucher {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+}
+
+.exchangeBtn {
+    font-size: 24px;
+    color: #0E1983;
+    cursor: pointer;
+}
+
+/* loyalty modal points */
+.dialogTitle {
+    padding: 20px 24px 0px 24px;
+}
+
+.dialogTitle h2 {
+    display: flex;
+    justify-content: space-between;
+    min-width: 260px;
+    max-height: 30px;
+}
+
+.dialogTitle .iconClose {
+    color: #c2c0c0 !important;
+    position: relative;
+    bottom: 12px;
+    left: 18px;
+}
+
+.dialogTitle .code {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: ggsm;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.titleVoucher {
+    text-transform: capitalize;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.titleValueVoucher {
+    text-transform: capitalize;
+    color: #09884d;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.coditionalUse {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: ggsm;
+    color: #000000;
+}
+
+.contentInfoVoucher {
+    margin-top: 6px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: ggsr;
+}
+
+.wrapBtn {
+    width: 100%;
+    margin: 0 auto;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.btnCashLoyalty {
+    background-color: #0cba69;
+    color: #ffffff;
+    border-radius: 30px;
+    height: 40px;
+    width: 207px;
+    max-width: 207px;
+    min-width: 207px;
+    text-align: center;
+    font-family: ggsm;
+    font-size: 14px;
+}
+
+.btnCashLoyalty:hover {
+    background-color: #35c280;
+}
+
+.contentApplyValue {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: ggsr;
+    padding-top: 0px !important;
+}
+
+.titleExchange {
+    font-size: 20px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.desExchange {
+    font-family: ggsm;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.btnNo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: ggsm;
+    color: #08AC60;
+    background-color: #ffffff;
+    min-height: 40px;
+    border-radius: 100px;
+    min-width: 120px;
+    border: 1px solid #08AC60;
+}
+
+.btnYes {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: ggsm;
+    color: #ffffff;
+    background-color: #08AC60;
+    min-height: 40px;
+    border-radius: 100px;
+    min-width: 120px;
+}
+
+.btnYes:hover {
+    background-color: #16bb6e;
+}
+
+.btnYes[class*='MuiButton-root']:hover[class*='Mui-disabled'] {
+    background-color: unset;
+}
+
+.successTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsr;
+    color: #000000;
+}

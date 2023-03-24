@@ -1,0 +1,213 @@
+.contentTicket {
+  margin-top: 8px;
+}
+
+.rootEmpty {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 50%;
+  justify-self: center;
+}
+
+.rootLinkItem {
+  display: flex;
+}
+
+.wrapperHeadLinkItem {
+  display: flex;
+}
+
+.titleLinkItem {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.wrapperLine1LinkItem {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.wrapperStatusLinkItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.statusLinkItem {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.wrapperTimeLinkItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.labelTimeLinkItem {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+
+  color: #676565;
+}
+
+.wrapperLink2LinkItem {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 8px;
+}
+
+.textTimeLinkItem {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral/Decription */
+
+  color: #797979;
+}
+
+.typeTimeLinkItem {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+}
+
+
+
+.textStatusOrder {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+
+.rootSku>span {
+  flex-shrink: 0;
+}
+
+.nameSku {
+  font-family: ggsm;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.sellerSku {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0e1983;
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+.sellerCapitalizeSku {
+  text-transform: capitalize;
+}
+
+.imgSku {
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.tagSalesSku {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: red;
+  background: #d4323b;
+  border-radius: 7px 0px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19px;
+}
+
+.wrapPriceSku {
+  display: flex;
+  gap: 8px;
+}
+
+.priceSku {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.discountPriceSku {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: #797979;
+}
+
+/* end style SkuInfo */
+
+.rootPopover {
+  width: 120px;
+  padding: 7px 13px;
+  box-shadow: 0px 1px 4px 0px rgb(148 148 148 / 48%);
+}
+
+.textStatusOrder {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.textSeeMore {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

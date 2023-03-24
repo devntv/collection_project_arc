@@ -1,0 +1,241 @@
+.price_label {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 2 !important;
+}
+
+.price {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: rgb(238, 35, 71);
+}
+
+.promo {
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  padding: 30px 16px;
+}
+.order {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: rgb(192, 191, 191);
+  border-radius: 15%;
+  text-align: center;
+  position: absolute;
+  top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.text_danger {
+  color: #dc3545;
+  margin-top: 12px !important;
+  font-size: 12px;
+  padding: 0px !important;
+}
+.firstCol {
+  position: relative;
+}
+.product_row {
+  height: 75px;
+}
+
+.product_table_name {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+.product_name {
+  text-transform: capitalize;
+  color: #00b46e !important;
+  cursor: pointer;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+.product_name:hover {
+  color: #00683f !important;
+}
+
+.product_price {
+  font-weight: bold !important;
+}
+
+.table {
+  min-width: 650px;
+  margin-top: 15px !important;
+  overflow: hidden !important;
+}
+.icon_point [class*='MuiSvgIcon-root'] {
+  font-size: 16px !important;
+  color: gray !important;
+  margin-left: 5px !important;
+}
+.total_bottom {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.table [class*='MuiTableContainer-root'] {
+}
+.product_tags {
+  margin-bottom: 4px !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.product_row [class*='tagContainer'] {
+  margin-bottom: 5px;
+}
+.gift_flag {
+  display: -webkit-inline-box;
+  align-items: center;
+  font-weight: 500;
+  padding: 2.6px 7.9px;
+  margin-right: 0.25em;
+  white-space: normal;
+  font-size: 75%;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #dc3545;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.gift_flag_text {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 18px;
+  display: inline-block;
+}
+.discount_flag {
+  display: -webkit-inline-box;
+  align-items: center;
+  font-weight: 500;
+  padding: 0px 2px;
+  margin: 2px;
+  white-space: normal;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #dc3545;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.discount_flag:hover {
+  opacity: 0.5;
+}
+.product_tags [class*='tagContainer'] {
+  margin-bottom: 5px;
+}
+.discount_flag_text {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 18px;
+  display: inline-block;
+}
+.cb_unlink {
+  font-size: 12px;
+}
+.comboList [class*='cb_name'] {
+  flex: unset;
+}
+.comboList [class*='cb_name'] a {
+  margin-bottom: 0;
+}
+.comboList [class*='priceGroup'] {
+  flex: 0 0 90px;
+}
+.comboList [class*='priceGroup'] span:first-child {
+  display: none;
+}
+.comboList [class*='cb_price'] {
+  color: unset;
+  font-size: 14px;
+}
+.combo_head td {
+  padding: 0 16px 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.combo_row td {
+  padding: 0 16px;
+  border: 0;
+  font-size: 14px !important;
+}
+.combo_row.last td {
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  padding-bottom: 10px;
+}
+
+.has_combo td {
+  border-bottom: 0;
+}
+.cb_link {
+  padding: 5px 0;
+  color: #00b46e;
+}
+.cb_link:hover {
+  color: #00b46e;
+}
+@media screen and (max-width: 767px) {
+  .table {
+    min-width: 650px;
+    margin-top: 15px !important;
+    overflow: hidden !important;
+  }
+  .total_price {
+    padding: 10px 15px !important;
+    justify-content: flex-start;
+  }
+  .comboList [class*='cb_item'],
+  .comboList [class*='cb_name'],
+  .comboList [class*='priceGroup'] {
+    display: block;
+  }
+  .comboList [class*='cb_item'] {
+    margin-bottom: 10px;
+  }
+  .comboList [class*='cb_name'] {
+    padding-right: 0;
+  }
+  .comboList [class*='cb_name'] a {
+    line-height: 1.2;
+  }
+}
+
+.toggle_button {
+  padding: 0;
+  min-width: 0;
+}
+
+.title_list {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.icon {
+  color: #9fa1a3;
+}
+
+.icon:hover {
+  color: #00b46e;
+}
+
+.btn {
+  margin-left: 0.5rem;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background: none;
+}

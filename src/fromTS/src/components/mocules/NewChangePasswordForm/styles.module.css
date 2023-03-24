@@ -1,0 +1,102 @@
+.forget_password {
+  width: 100%;
+}
+
+.form_forget_password {
+  margin-top: 10px;
+}
+
+.form_control {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: tomato;
+  margin: 5px 0;
+}
+
+.input {
+  margin: 0 1rem 1rem 0rem !important;
+  font-family: googlesansregular;
+}
+
+.input fieldset {
+  border: 1px solid #dbdbdb;
+  border-radius: 8px !important;
+}
+
+.input.disabled {
+  background-color: #f4f7fc !important;
+}
+
+.input_icon svg {
+  color: #3b438f;
+}
+
+.confirm_modal_wrap {
+  max-width: 100%;
+  padding: 1.25em;
+  font-family: googlesansregular;
+  font-size: 1rem;
+  outline: 0;
+}
+
+.warning_icon {
+  display: flex;
+  justify-content: center;
+  width: 5em;
+  height: 5em;
+  margin: 1.25em auto 1.7em;
+  border: 0.25em solid transparent;
+  border-radius: 50%;
+  line-height: 5em;
+  cursor: default;
+  user-select: none;
+  border-color: #0cba69;
+  color: #0cba69;
+}
+
+.text_icon {
+  display: flex;
+  align-items: center;
+  font-size: 3.75em !important;
+}
+
+.modal_title {
+  font-family: googlesansmedium;
+  max-width: 100%;
+  margin: 0 0 0.2rem 0 !important;
+  padding: 0;
+  color: #292929;
+  font-size: 1.6em !important;
+  text-align: center;
+  text-transform: none;
+}
+
+.modal_content {
+  color: #292929;
+  font-family: googlesansregular;
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  font-family: googlesansmedium;
+  text-transform: uppercase;
+  background: #0cba69;
+  border-radius: 30px;
+  height: 50px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08);
+  padding: 6px 50px !important;
+  margin: 1rem;
+}

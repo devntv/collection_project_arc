@@ -1,0 +1,26 @@
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.time_detail {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .time {
+    justify-content: flex-start;
+  }
+}
+
+/* new mobile UI */
+.mobileTime_from,
+.mobileTime_to {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}

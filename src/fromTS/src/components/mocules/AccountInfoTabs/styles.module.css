@@ -1,0 +1,22 @@
+.tab {
+  min-width: unset !important;
+  text-transform: capitalize !important;
+}
+
+.indicator {
+  background-color: #0cba69 !important;
+  height: 3px !important;
+}
+
+.content {
+  padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+  .tab_panel {
+    padding: 15px !important;
+  }
+  .content {
+    padding-left: 0;
+  }
+}

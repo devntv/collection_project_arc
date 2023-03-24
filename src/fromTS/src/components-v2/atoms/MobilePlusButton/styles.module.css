@@ -1,0 +1,32 @@
+.mobile_icon {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+}
+  
+.mobile_button_root {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 36px;
+    height: 40px;
+    border-radius: 0 20px 20px 0!important;
+   
+    margin: 0!important
+  }
+  
+.mobile_plus {
+    background-color: #fff !important;
+    color: #08ac60 !important;
+    border: 1px solid #c3ccdc !important;
+    padding: 7px 10px !important;
+}
+  
+.mobile_plus_disabled {
+    background-color: #dddddd !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 0 !important;
+}
+  

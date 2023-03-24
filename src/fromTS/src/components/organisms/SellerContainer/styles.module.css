@@ -1,0 +1,15 @@
+.searchWrap {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .searchWrap {
+    width: 100%;
+  }
+}
+
+.textSearchRes {
+  font-family: ggsr;
+  font-weight: 500;
+  font-size: 14px;
+}

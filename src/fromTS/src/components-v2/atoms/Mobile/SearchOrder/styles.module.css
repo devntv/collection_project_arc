@@ -1,0 +1,43 @@
+.mobile_inputAdorment{
+    margin-right: 8px;
+}
+.mobile_inputAdorment > span{
+    width: 16px;
+    height: 16px;
+}
+
+.root_input {
+    height: 40px;
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: 500;
+    background-color: white;
+    min-width: 0;
+    border-radius: 2rem !important;
+    border: 1px solid #ced4da !important;
+    width: 100%;
+    padding: 12px;
+}
+
+.input {
+    text-align: left;
+    font-family: ggsr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #797979;
+    padding: 0;
+}
+
+.root_input_column {
+    width: 30% !important;
+}
+
+.focus {
+    border: 1px solid #35ffb0 !important;
+    box-shadow: 0 0 0 0.2rem rgb(0 180 110 / 25%) !important;
+    color: #495057 !important;
+    outline: 0 !important;
+    border-color: transparent !important;
+}
+  

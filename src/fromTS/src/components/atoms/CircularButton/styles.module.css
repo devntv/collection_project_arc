@@ -1,0 +1,40 @@
+.icon {
+  font-size: 1.3rem !important;
+  font-weight: bold;
+}
+
+.button_root {
+  font-size: 1.3rem !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  max-width: 1.5rem;
+  height: 1.5rem;
+}
+
+.plus {
+  background-color: #f9b514 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.plus_disabled {
+  background-color: #dddddd !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.minus {
+  background-color: #fff !important;
+  color: #c3ccdc !important;
+  border: 1px solid #c3ccdc !important;
+  padding: 0 !important;
+}
+
+.button_root_minus {
+  padding: 0px !important;
+}

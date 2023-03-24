@@ -1,0 +1,112 @@
+.accordionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.accordionHeader p {
+    font-family: "googlesansmedium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 16px 0 10px 0;
+    padding-left: 10px;
+}
+
+.buttonExpand {
+    transition: all .2s ease-in-out;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    transform: translateY(2px);
+}
+
+.accordionHeader svg {
+    color: #ababab !important;
+}
+
+.buttonExpanded {
+    transform: rotateX(180deg) translateY(0px);
+}
+
+.accordion-sumary svg {
+    color: #00b46e;
+}
+
+.accordionLink {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-word;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.accordionLink:hover,
+.accordionLink.active {
+    color: #00b46e;
+}
+
+.accordion-detail {
+    display: block !important;
+}
+
+.viewMore {
+    border-top: 1px solid #dcdbdb;
+    border-bottom: 1px solid #dcdbdb;
+    text-align: center;
+}
+
+.viewMore button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 100%;
+    font-family: "googlesansregular";
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0E1983;
+    cursor: pointer;
+}
+
+.viewMore svg {
+    transform: scale(0.7) translate(-3px, 1px);
+}
+
+.subEffWrapper {
+    margin-bottom: 10px;
+}
+
+.subEffItem {
+    margin-left: 20px;
+    transform: scale(0.975);
+}
+
+.radioLabel {
+    font-family: ggsr;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 100%;
+}

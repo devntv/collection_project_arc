@@ -1,0 +1,36 @@
+.form{
+    width: 350px;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    color: #595959;
+    font-size: 24px;
+}
+.bottom_text{
+    color: #17a2b8 !important;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.btnWrapper{
+    max-width: 200px;
+    margin: 15px auto;
+    width: 100%;
+}
+.error{
+    color: tomato;
+    margin: 5px 0;
+}
+.formInput{
+    width: 100%;
+}
+.formInput [class*='MuiInputBase-root']{
+    margin: 0 !important;
+}
+
+@media (max-width: 767px){
+    .form{
+        width: 100% !important;
+    }
+}

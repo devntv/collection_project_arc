@@ -1,0 +1,263 @@
+.footer {
+  background-image: url(/images/footer-v2/background.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thuocsi > p {
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0e1983;
+  cursor: text;
+}
+
+.thuocsidefinition {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #586189;
+  cursor: text;
+}
+
+.taiAppTai {
+  height: 18px;
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #586189;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.titleItem {
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #202332;
+}
+
+.TitleService {
+  display: flex;
+  align-items: center;
+}
+
+.serviceIcon {
+  margin-right: 8px;
+}
+
+.border {
+  border: 1px solid #e0e6f3 !important;
+  border-radius: 5px !important;
+}
+
+.TitleConnect {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.connectIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.license {
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
+  width: 100%;
+}
+.bodyItemTT {
+  font-family: googlesansmedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #202332;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.bodyItem {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #202332;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.bodyItemLicense {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #202332;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  cursor: pointer;
+}
+
+.bodyItemLicense:hover {
+  color: #0cba69;
+}
+
+.contactBody > a {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0e1983 !important;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.contactBody > a:hover {
+  color: #0cba69 !important;
+}
+
+.centerImg {
+  vertical-align: middle;
+}
+
+.callTime {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #586189;
+}
+
+.link {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #0e1983;
+  /* margin-top: 8px; */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #0cba69;
+}
+
+.alink:hover {
+  cursor: pointer;
+}
+
+.endOfFooter {
+  font-family: googlesansregular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #586189;
+  text-align: center;
+}
+
+.intersect {
+  top: 43.25%;
+  bottom: -49.82%;
+}
+
+.boxInfoLeft {
+  max-width: 317px;
+}
+
+.phoneScreen {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+}
+
+.license {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footerInfo {
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin: 0 auto;
+  }
+
+  .about {
+    margin: 0 auto;
+  }
+
+  .app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+  }
+
+  .app br {
+    display: none;
+  }
+
+  .footerInfo {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .license {
+    margin-bottom: 60px;
+  }
+}
+
+/* @media (max-width: 500px) {
+  .phoneScreen {
+    display: none;
+  }
+} */
+
+.newLogo {
+  position: absolute;
+}
+
+.linkComp {
+  padding: 0px !important;
+  margin: 0px !important;
+}

@@ -1,0 +1,11 @@
+.mobile_linkRoot {
+  padding: 12px;
+}
+
+.mobile_rootBase {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px;
+  color: #000;
+  display: flex;
+}

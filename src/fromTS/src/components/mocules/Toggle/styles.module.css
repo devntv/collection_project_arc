@@ -1,0 +1,32 @@
+.top_menu {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  flex: 1 !important;
+  padding: 0 10px !important;
+  min-height: 0 !important;
+}
+
+.top_text {
+  margin: 0 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
+.menu_item {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  /* border-bottom: 0.1px solid #212529 !important; */
+}
+
+.menu_item:hover {
+  background-color: transparent !important;
+}
+
+.toggle_button {
+  color: #fff !important;
+  min-width: auto !important;
+  padding: 12px !important;
+  border-radius: 50% !important;
+}

@@ -1,0 +1,228 @@
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.bestProducts {
+  padding: 20px 16px;
+  background: #09884d;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0 !important;
+  font-size: 32px;
+  color: #00b46e;
+  font-weight: 500;
+}
+
+.root {
+  max-width: 555px;
+  height: 224px;
+  margin: 8px !important;
+  box-shadow: 0 0 18px -10px !important;
+}
+
+.media {
+  height: 0 !important;
+  padding-top: 56.25% !important;
+}
+
+.large {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.card_header {
+  padding-bottom: 0 !important;
+  padding-top: 24px;
+}
+
+.header_customer {
+  position: relative;
+  top: -15px;
+  font-size: 20px !important;
+  color: #00b46e;
+  font-weight: bold !important;
+}
+
+.header_title {
+  position: relative;
+  top: -15px;
+  font-size: 16px !important;
+  color: #919aa3 !important;
+}
+
+.wrapper_media {
+  background-color: #f4f7fc;
+}
+
+.wrapper_media_container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.wrapper_media:nth-child(2n) {
+  background-image: linear-gradient(to right, #00b46e, #17a2b8);
+}
+
+.wrapper_media:nth-child(2n) .progress * {
+  color: #fff !important;
+}
+
+.wrapper_media:nth-child(2n) .title {
+  color: #fff;
+}
+
+.card_content {
+  position: relative;
+  top: -20px;
+  padding-left: 112px !important;
+  padding-right: 20px !important;
+  padding-top: 0 !important;
+}
+
+.comment_style {
+  font-size: 16px !important;
+  font-style: italic;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.quote {
+  font-size: 16px !important;
+  color: #00b46e;
+  opacity: 0.2;
+}
+
+.seeAll {
+  display: flex !important;
+  margin: 0 auto !important;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  border: 1px solid #00b46e !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem !important;
+  color: #fff;
+  background-color: #00b46e;
+  border-radius: 50px !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 200px;
+  height: 3em;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.seeAll:hover {
+  color: #fff;
+  background-color: #00b46e;
+  border-color: #00b46e;
+}
+
+.wrapper_media:nth-child(2n) .seeAll {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+}
+
+.wrapper_media:nth-child(2n) .seeAll:hover {
+  color: #212529 !important;
+  background-color: #fff !important;
+}
+
+.SliderProductWrap {
+  padding: 48px 0;
+}
+
+.SliderProductWrapV2 {
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  word-break: break-all;
+  color: #000;
+}
+
+.bestProductsName {
+  color: #fff;
+}
+
+.view_more {
+  display: flex;
+  justify-content: center;
+}
+
+.view_more p {
+  font-size: 16px;
+  font-family: googlesansmedium;
+}
+
+.wrapper {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px 15px;
+  margin-bottom: 12px;
+}
+
+.bestProductsWrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.bestProducts_view_more {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+
+.bestProducts_view_more a {
+  color: #fff;
+  font-size: 16px;
+  font-family: googlesansmedium;
+}
+
+.bestProducts_view_more a span:first-child {
+  transform: translateY(-2px);
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.icon_name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 44px;
+}
+
+/* style using for mobile v2 */
+
+.wrapper_mv2 {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 10px 10px;
+}
+.view_more_mv2 p {
+  font-size: 14px;
+}

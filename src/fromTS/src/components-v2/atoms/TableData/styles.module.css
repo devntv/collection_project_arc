@@ -1,0 +1,35 @@
+.root {
+  width: 100%;
+}
+
+.table_head {
+  width: auto;
+  font-style: normal;
+  min-width: 168px;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 18px;
+  font-family: googlesansmedium !important;
+  text-transform: capitalize;
+  color: #636363;
+  padding: 0 0 18px 0;
+}
+
+.tablle_origin {
+  width: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 18px;
+  font-family: googlesansmedium !important;
+  text-transform: capitalize;
+  color: #636363;
+  padding: 0 0 18px 0;
+}
+
+/* break point */
+@media (min-width: 1380px) {
+  .table_head {
+    min-width: 180px;
+  }
+}

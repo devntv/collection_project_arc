@@ -1,0 +1,54 @@
+.root_input {
+  height: 40px;
+  min-height: 40px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-radius: 2rem !important;
+  border: 1px solid #e6e8ef !important;
+  position: relative;
+  width: 100%;
+}
+.wrapInput {
+  margin-right: 0px;
+}
+.root_input[class*='MuiInput-underline']::after {
+  border: none !important;
+}
+.wrapInput [class*='MuiInput-underline']::before {
+  border: none !important;
+}
+.wrapInput [class*='MuiInputBase-input'] {
+  border: none !important;
+  margin-left: 20px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #868585;
+  font-family: googlesansregular !important;
+  -webkit-text-fill-color: #868585;
+  opacity: 1;
+  height: 100%;
+  padding: 0;
+  padding-right: 10px;
+}
+.styleDateTime {
+  border: 1px solid #e6e8ef !important;
+  border-radius: 2rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-weight: 500;
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+}
+.root_input [class*='Mui-focused'] [class*='MuiInputBase-input'] {
+  border: none !important;
+  -webkit-appearance: searchfield;
+}
+
+.wrapInput [class*='MuiInput-underline']::after {
+  border: none !important;
+}

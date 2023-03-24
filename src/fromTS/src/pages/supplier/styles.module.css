@@ -1,0 +1,63 @@
+.supplierRating {
+    display: inline-block;
+    font-size: 24px
+}
+
+.rating {
+    min-width: 100px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ratingBase {
+    color: #adb5bd;
+}
+
+.ratingStars {
+    color: #f9b514;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.star {
+    font-size: 16px;
+}
+
+.supplierWrapper {
+    background-color: #f4f7fc;
+}
+
+.container {
+    padding: 3rem 7rem 0 7rem;
+    display: flex;
+}
+
+.logoPharma {
+    padding-right: 20px;
+}
+
+.supplierYear {
+    display: block;
+}
+
+.supplierName {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 500!important;
+}
+
+
+@media (max-width: 896px){
+    .logoPharma {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column
+    }
+}

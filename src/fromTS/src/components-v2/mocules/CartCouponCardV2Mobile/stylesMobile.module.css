@@ -1,0 +1,496 @@
+.coupon_card {
+    margin-right: 4px;
+    font-size: small !important;
+    background-color: white !important;
+    border-radius: 10px !important;
+    /* box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08) !important; */
+    /* box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.08) !important; */
+    text-align: left !important;
+    width: 100% !important;
+    margin: 10px 0px 10px 4px;
+    /* border: 1px solid #DCDBDB; */
+    position: relative;
+    overflow: hidden !important;
+    /* -moz-box-shadow: 0 4px 3px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 4px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 3px rgba(0, 0, 0, 0.08); */
+}
+
+
+.logoVoucher {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.col_left_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dividerStyle {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+    min-width: 1px;
+}
+
+.coupon_card_wrap {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0px 1em;
+    border: 1px solid #DCDBDB;
+    border-radius: 10px;
+    position: relative;
+    /* max-height: 172px; */
+}
+
+.expiredDate {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px !important;
+    line-height: 18px;
+    font-family: ggsr;
+    color: #797979;
+}
+
+.canUseVoucher p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+    color: #D4323B;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+}
+
+.priceApply {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2
+}
+
+.wrapRight {
+    padding: 6px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coupon_card_wrap::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px;
+    top: 0;
+}
+
+.circleBoxTop {
+    background-color: #f5f5f5;
+    min-width: 28px;
+    min-height: 28px;
+    position: absolute;
+    border-radius: 13px;
+    top: -19px;
+    border: 1px solid #DCDBDB;
+    overflow: hidden;
+}
+
+.circleBoxBottom {
+    background-color: #f5f5f5;
+    min-width: 28px;
+    min-height: 28px;
+    position: absolute;
+    z-index: 9;
+    border-radius: 50%;
+    bottom: -19px;
+    border: 1px solid #DCDBDB;
+
+}
+
+.dividerStyle hr {
+    min-width: 1px;
+    height: 80%;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+/* .coupon_yellow {
+    border-top: 2px solid #f9b514 !important;
+}
+
+.coupon_green {
+    border-top: 2px solid #00b46e !important;
+} */
+
+.coutdountTime span {
+    color: #D4323B;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: ggsr !important;
+}
+
+.wrapCoditionVoucher {
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+}
+
+.coditonDesc {
+    display: flex;
+    align-items: center;
+}
+
+.btnApplyCode {
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 6px;
+}
+
+.wrapCoditionVoucher p {
+    margin-right: 6px;
+    color: #0E1983;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsr;
+}
+
+.wrapCoditionVoucher svg {
+    color: #0E1983;
+    font-size: 16px;
+}
+
+.code {
+    color: #00b46e;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    word-break: break-word;
+}
+
+.coupon_description {
+    /* margin-bottom: 6px !important; */
+    font-weight: 500;
+}
+
+.coupon_description p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-family: ggsm;
+    text-overflow: ellipsis;
+
+}
+
+
+
+.tooltipContainer {
+    padding: 4px 16px !important;
+}
+
+.tooltipTitle p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-family: ggsm;
+    color: #000000;
+}
+
+.tooltipTitle {
+    margin-bottom: 16px;
+}
+
+.wrapCodeVoucher {
+    display: flex;
+}
+
+.voucherCode {
+    display: flex;
+    align-items: center;
+    max-height: 10px;
+}
+
+.voucherCode p {
+    text-transform: capitalize;
+    color: #09884D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.voucherCode svg {
+    color: #C0C0C0;
+    font-size: 16px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.dividerTooltip hr {
+    min-height: 1px;
+    width: 100%;
+    margin: 6px 0px;
+}
+
+.coditionVoucher p {
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: ggsm !important;
+}
+
+.coditionDesc {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsr;
+
+}
+
+.voucherCodeTitle p {
+    text-transform: capitalize;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.wrapCodeVoucher {}
+
+.benefit {
+    border-radius: 5px;
+    border: 1px dashed #e9ecef;
+    padding: 0.3em;
+    color: #dc3545;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.text_info {
+    color: #1890ff;
+}
+
+.text_warning {
+    color: #ffc107;
+    margin-top: 10px !important;
+}
+
+.text_danger {
+    color: #dc3545;
+    margin-top: 12px !important;
+}
+
+.giftList {
+    margin: 0 !important;
+    padding-left: 17px;
+}
+
+.diablogContainer div[class*='MuiPaper-root'] {
+    min-width: 100% !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05) !important;
+    padding: 20px 15px 34px;
+    /* min-height: 436px;
+    top: 22%; */
+}
+
+.diablogContainerUnsize div[class*='MuiPaper-root'] {
+    top: 22%;
+}
+
+.btnApplyMobile {
+    width: 100%;
+    display: flex;
+}
+
+.btnApply:hover {
+    background-color: #24bb74;
+}
+
+.btnApplyMobile button {
+    padding: 10px 20px !important;
+    background: #08AC60;
+    color: #fff;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.diablogContainer div[class*='MuiDialogContent-root'] {
+    padding: 0 !important;
+}
+
+.titleTop p {
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: ggsm;
+}
+
+.containerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.actionCode {
+    display: flex;
+}
+
+.actionCode p {
+    color: #09884D;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm !important;
+    text-transform: uppercase !important;
+}
+
+.actionCode svg {
+    margin-left: 8px;
+    color: #C0C0C0;
+
+}
+
+.wrapLabelCode p {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.wrapDesc p {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsm;
+}
+
+.coditionDesc {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ggsr;
+    min-height: 100px;
+}
+
+.disabledBtn {
+    background-color: #bcbcbc !important;
+    color: #999999 !important;
+}
+
+.col_left {
+    min-height: 130px;
+}
+
+.codeUsing {
+    background-color: transparent !important;
+    border: 1px solid #00b46e;
+    color: #00b46e !important;
+}
+
+.btnValidate {
+    text-transform: none !important;
+    color: #fff !important;
+    background-color: #08ac60 !important;
+    border-radius: 30px;
+    padding: 2px 6px !important;
+    transition: 0.5s;
+    font-family: ggsr;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .col_left_inner {
+        flex-wrap: nowrap !important;
+    }
+
+    .col_left_inner>div:first-child {
+        flex-wrap: unset !important;
+    }
+
+    .col_right {
+        padding-top: 0 !important;
+    }
+
+    .col_right button {
+        margin: 0 !important;
+    }
+
+    .benefit {
+        margin-bottom: 0 !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media (max-width:599px) {
+    .benefit {
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .btnApplyCode button {
+        padding: 4px 8px;
+    }
+
+    .wrapCoditionVoucher p {
+        font-size: 12.5px !important;
+    }
+}

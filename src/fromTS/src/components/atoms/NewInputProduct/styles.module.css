@@ -1,0 +1,22 @@
+.root_input {
+  color: #797979 !important;
+  font-weight: 500;
+  background-color: white;
+  min-width: 0;
+}
+
+.input {
+  text-align: center;
+  font-weight: bold !important;
+  height: 30px;
+}
+
+.root_input .input[class*='disabled'] {
+  color: gray;
+}
+
+.focus {
+  /* border: 1px solid #2CD888 !important; */
+  color: #000000 !important;
+  outline: 0 !important;
+}

@@ -1,0 +1,24 @@
+.paper {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  display: inline-flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+.btnRoot {
+  padding: 0px;
+  transform: translateX(-50%);
+}
+
+.paper svg {
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: rgba(84, 84, 84, 0.54)
+}
+
+.paper[class*='hideElement'] {
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,30 @@
+.root_input {
+  height: 1.5rem;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  font-weight: 500;
+  /* font-size: 1rem; */
+  background-color: white;
+  color: #f9b514 !important;
+  min-width: 0;
+  border-radius: 0.25rem !important;
+  border: 1px solid #ced4da !important;
+}
+
+.input {
+  text-align: center;
+  font-weight: bold !important;
+  height: 100%;
+}
+
+.root_input .input[class*='disabled'] {
+  color: gray;
+}
+
+.focus {
+  border: 1px solid #35ffb0 !important;
+  box-shadow: 0 0 0 0.2rem rgb(0 180 110 / 25%) !important;
+  color: #495057 !important;
+  outline: 0 !important;
+  border-color: transparent !important;
+}

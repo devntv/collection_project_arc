@@ -1,0 +1,6 @@
+.mobileIcon{
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 40%;
+}

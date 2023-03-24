@@ -1,0 +1,151 @@
+.form_sign_up {
+}
+
+@media screen and (max-width: 767px) {
+  .form_sign_up {
+    height: 100%;
+  }
+}
+
+.input,
+.province {
+  margin: 1rem 1rem 0rem 0rem !important;
+  font-family: googlesansregular;
+}
+
+.text_error {
+  padding-top: 2px;
+  color: red;
+  font-family: googlesansregular;
+  font-size: 12px;
+  text-align: left;
+}
+
+.text_error svg {
+  font-size: 16px;
+  transform: translateY(3px);
+}
+
+.input fieldset,
+.province fieldset {
+  border: 1px solid #dbdbdb;
+  border-radius: 8px !important;
+}
+
+.input_icon svg {
+  color: #3b438f;
+}
+
+.province [class*='MuiInputBase-input'] {
+  height: auto !important;
+}
+
+.province [class*='MuiNativeSelect-icon'] {
+  padding: 0;
+  right: 14px;
+}
+
+.agree_term {
+  margin-top: 1rem;
+  align-self: flex-start;
+  font-size: 13px;
+}
+.agree_term span:last-child {
+  font-family: googlesansregular !important;
+}
+.agree_term span:first-child path {
+  color: #0e1983 !important;
+}
+
+.agree_term .radioGroup {
+  flex-direction: column;
+  height: 170px;
+}
+
+.radio_wrapper {
+  padding: 0.5rem 0;
+}
+
+.item span:last-child {
+  font-family: googlesansregular;
+}
+
+.item [class*='MuiSvgIcon-root'] path {
+  color: #afafaf;
+}
+
+.item span:first-child span div svg:last-child path {
+  color: #0e1983;
+}
+
+.link_login_wrapper {
+  padding: 0;
+}
+
+.link_login_wrapper p {
+  font-family: googlesansregular;
+}
+
+.link_login {
+  color: #09884d;
+  font-family: googlesansregular;
+  font-size: 16px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_register {
+  color: white;
+  font-weight: 500;
+  font-family: googlesansmedium;
+  text-transform: uppercase;
+  background: #0cba69;
+  border-radius: 30px;
+  height: 50px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08);
+  padding: 12px 50px !important;
+  margin: 1rem;
+}
+.disclaimer {
+  font-family: googleSansRegular;
+}
+
+.wrapperTitle [class*='title'] {
+  font-family: ggsm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #292929;
+  margin: 8px 0px;
+}
+.wrapperTitle [class*='desc'] {
+  font-family: ggsr;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+  margin: 8px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .form_sign_up {
+    height: 100%;
+  }
+}
+
+.badge > span {
+  justify-content: center;
+}
+
+.greenIcon span {
+  filter: invert(10%) sepia(71%) saturate(2565%) hue-rotate(242deg) brightness(59%) contrast(66%);
+}
+.mt_16 {
+  margin-top: 16px;
+}

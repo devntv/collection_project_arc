@@ -1,0 +1,86 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 10px !important;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  color: black;
+  justify-content: center;
+}
+
+.display_none {
+  display: none;
+}
+
+.display_full {
+  display: flex;
+  flex: 1;
+}
+
+.native_select [class*='MuiNativeSelect-select'] {
+  height: 100%;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.native_select [class*='MuiNativeSelect-icon'] {
+  right: 5px !important;
+}
+
+.upload_button {
+  box-shadow: none !important;
+  text-transform: none !important;
+}
+
+.border_radius_8 {
+  border-radius: 8px !important;
+}
+
+.label_mobile {
+  color: black;
+  font-weight: 450;
+  font-size: 0.75rem;
+  font-family: ggsr, sans-serif;
+  padding-left: 8px;
+}
+.helperTextMobile {
+  padding-left: 8px;
+}
+.license [class*='MuiOutlinedInput-inputAdornedStart'] {
+  width: 0 !important;
+}
+
+.license_chip_list [class*='MuiChip-root'] {
+  border-radius: 6px !important;
+  margin: 5px;
+}
+
+.upload_button:hover {
+  box-shadow: none !important;
+}
+.wrapImage {
+  position: relative;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  padding: 5px;
+}
+.inner {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+}
+.image {
+  object-fit: contain;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .clear {
+    padding-bottom: 0 !important;
+  }
+}

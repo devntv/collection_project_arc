@@ -1,0 +1,32 @@
+.auth_modal_content {
+  position: relative;
+  background: #ffffff;
+  outline: 0;
+  overflow: hidden auto;
+  padding: 40px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+.auth_modal_title {
+  margin-bottom: 36px;
+  color: #000000;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: googlesansmedium;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.auth_modal_close {
+  background-color: transparent;
+  border: 0;
+  color: #afafaf;
+  margin-bottom: 36px;
+}
+.hiddenClose {
+  display: none;
+}
+.iconBack {
+  margin-bottom: 36px;
+}

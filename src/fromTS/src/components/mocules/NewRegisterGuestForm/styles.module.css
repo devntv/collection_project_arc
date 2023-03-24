@@ -1,0 +1,66 @@
+.input {
+  margin: 0 1rem 1rem 0rem !important;
+  font-family: googlesansregular;
+}
+
+.input fieldset {
+  border: 1px solid #dbdbdb;
+  border-radius: 8px !important;
+}
+
+.form {
+  width: 350px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-family: googlesansmedium;
+  color: #868585;
+  font-size: 24px;
+}
+
+.bottom_text {
+  font-family: googlesansregular;
+  color: #3b438f;
+  font-size: 18px;
+  text-align: center;
+}
+
+.error {
+  color: tomato;
+  margin: 5px 0 10px 0;
+}
+
+.formInput {
+  width: 100%;
+}
+.formInput [class*='MuiInputBase-root'] {
+  margin: 0 !important;
+}
+
+.btn_wrapper {
+  max-width: 200px;
+  margin: 15px auto;
+  width: 100%;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  font-family: googlesansmedium;
+  text-transform: uppercase;
+  background: #0cba69;
+  border-radius: 30px;
+  height: 50px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08);
+  padding: 6px 50px !important;
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .form {
+    width: 100% !important;
+  }
+}

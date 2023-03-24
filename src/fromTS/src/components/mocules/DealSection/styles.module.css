@@ -1,0 +1,51 @@
+.deal_section {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+@media (max-width: 468px) {
+  .deal_section {
+    flex-direction: column;
+  }
+}
+
+.root_process {
+  height: 16px !important;
+  border-radius: 9px;
+}
+
+.count_down,
+.startDate {
+  flex: 70%;
+  font-size: 10px;
+  text-align: right;
+  color: #d4323b;
+}
+
+.process_wrapper {
+  position: relative;
+  flex: 50% !important;
+  margin-bottom: 5px;
+}
+
+.process_content {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px !important;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.bar_background {
+  background-image: linear-gradient(to right, #f9b514 0%, #dc3545 70%) !important;
+}
+
+.blur_background {
+  background-color: #f6cdd1 !important;
+}
