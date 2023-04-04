@@ -1,0 +1,152 @@
+.rightGroup {
+    float: right;
+    align-items: center;
+}
+
+.btnDialog {
+    float: right;
+    align-items: center;
+    margin: 12px;
+}
+
+.search {
+    padding-left: 5px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.grid {
+    flex-grow: inherit;
+    margin-bottom: 10px;
+}
+
+.contentPadding {
+    padding: 12px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formControl {
+    width: 200px;
+    margin: 10px;
+}
+
+.input {
+    flex: 1;
+    margin-left: 3px;
+}
+
+.iconButton {
+    padding: 10px;
+}
+
+.textSearch {
+    color: green;
+    padding: 10px;
+}
+
+.root {
+    flex-grow: 1
+}
+
+.paper {
+    padding: 2px;
+    text-align: center;
+}
+
+.buttonConfirm {
+    margin: 1rem 0;
+    width: 100%;
+    align-items: center;
+}
+
+
+.rootCard {
+    margin: 10px;
+}
+
+.blockSearch {
+    padding: 0 20px;
+}
+
+.select {
+    width: 100%!important;
+}
+
+.MuiInputBase-root {
+    width: 100%;
+}
+
+.modalBody {
+    background: #FFF;
+    width: 70%;
+    display: block;
+    padding: 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: auto;
+    outline: 0;
+    min-height: inherit;
+    max-height: inherit;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.modalBodyCreate {
+    background: #FFF;
+    width: 30%;
+    display: block;
+    padding: 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: auto;
+    outline: 0;
+    min-height: inherit;
+    max-height: inherit;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalFooter {
+    margin: 1rem 0 ;
+    text-align: right;
+    align-items: flex-end;
+    float: right;
+}
+
+
+.headerModal {
+    margin-top: 0;
+    text-align: center;
+}
+
+.buttonSearch {
+    margin-left: auto !important;
+}
+
+.hoverSpan :hover{
+    font-weight: bold;
+}
+
+.hoverIcon :hover{
+    font-weight: bold;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.textItalic {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 1.5rem;
+    font-weight:  300;
+}

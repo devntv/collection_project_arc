@@ -1,0 +1,5 @@
+.newProductsInUse li a, .newProductsInUse li span {
+	color:#00b46e;
+	text-decoration:underline;
+	font-style: italic;
+}

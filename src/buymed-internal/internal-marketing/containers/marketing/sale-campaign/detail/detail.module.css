@@ -1,0 +1,53 @@
+.infoLine {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.label {
+    width: 40%;
+    font-weight: bold;
+}
+
+.title {
+    width: 80%;
+    font-weight: bold;
+}
+
+.value {
+    width: 60%;  
+}
+
+.valueLocation {
+    width: 60%;  
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 4px;
+    min-width: 10px;
+}
+
+.active {
+    background-color: #00b46e;
+}
+
+.inactive {
+    background-color: red;
+}
+
+.normal {
+    background-color: transparent;
+}
+
+.skuItemInfo {
+    display: flex;
+    padding-top: 5px;
+}

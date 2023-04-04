@@ -1,0 +1,28 @@
+.infoLine {
+    display: flex;
+    padding-bottom: 8px;
+    justify-content: space-around;
+}
+
+.label {
+    width: 35%;
+    font-weight: bold;
+}
+
+.value {
+    width: 60%;
+}
+
+.cartLink{
+    text-decoration: none !important;
+    cursor: pointer;
+    color:#00b46e;
+}
+
+.saleType div div div{
+    display: none;
+}
+
+.tooltip {
+    white-space: pre-line;
+}

@@ -1,0 +1,25 @@
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 4px;
+    min-width: 10px;
+}
+
+.active {
+    background-color: #00b46e;
+}
+
+.inactive {
+    background-color: red;
+}
+
+.normal {
+    background-color: transparent;
+}
+
+.skuItemInfo {
+    display: flex;
+    padding-top: 5px;
+}

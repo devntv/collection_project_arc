@@ -1,0 +1,13 @@
+.infoLine {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.label {
+    width: 40%;
+    font-weight: bold;
+}
+
+.value {
+    width: 60%;
+}
