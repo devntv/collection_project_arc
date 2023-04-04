@@ -1,0 +1,67 @@
+{
+	"report": "Báo cáo",
+	"action": "Thao tác",
+	"action_error": "Thao tác thất bại",
+	"action_success": "Thao tác thành công",
+	"no_option": "Không có kết quả phù hợp",
+	"rowsPerPage": "Hiển thị mỗi trang",
+	"from": "Từ",
+	"to": "Đến",
+	"in": "Trong",
+	"loading": "Đang tải dữ liệu",
+	"not_found": "Không tìm được dữ liệu tương ứng",
+	"created_time": "Thời gian tạo",
+	"all": "Tất cả",
+	"region": "Khu vực",
+	"northern": "Miền Bắc",
+	"southern": "Miền Nam",
+	"day": "Ngày",
+	"status": "Trạng thái",
+	"actions": {
+		"save": "Lưu",
+		"edit": "Chỉnh sửa",
+		"reset": "Làm mới",
+		"apply": "Áp dụng"
+	},
+	"time": {
+		"hour": "Giờ",
+		"minute": "Phút",
+		"day": "Ngày",
+		"month": "Tháng"
+	},
+	"group_by": "Nhóm dữ liệu theo",
+	"menu": {
+		"customer": "Khách hàng",
+		"order": "Đơn hàng",
+		"seller": "Nhà bán hàng",
+		"sku": "Sản phẩm",
+		"chat": {
+			"title": "Hỗ trợ khách hàng",
+			"number_by_cs": "SL chat theo nhân viên",
+			"number_by_date": "SL hội thoại phát sinh theo ngày",
+			"number_by_hour": "SL hội thoại phát sinh theo khung giờ",
+			"wait_by_date": "TB thời gian tiếp nhận xử lý theo ngày",
+			"completed_by_date": "TB thời gian hoàn tất xử lý theo ngày",
+			"summary": "Thống kê 30 ngày gần nhất",
+			"summary_by_cs": "Thống kê 30 ngày gần nhất theo nhân viên",
+			"rating": "Đánh giá hỗ trợ từ khách hàng",
+			"title_seller_admin": "Hỗ trợ nhà bán hàng",
+			"summary_seller_admin": "Thống kê 30 ngày gần nhất",
+			"summary_by_sa": "Thống kê 30 ngày gần nhất theo nhân viên"
+			
+		},
+		"sellerChat": {
+			"last30DaysStats": "Thống kê 30 ngày gần nhất",
+			"last30DaysStatsByEmployee": "Thống kê 30 ngày gần nhất theo nhân viên"
+		},
+		"report": "Báo cáo",
+		"realtime": {
+			"overview_report": "Báo cáo tổng quan",
+			"report_supply": "Báo cáo Supply",
+			"report_sku": "SKU sai giá bán",
+			"report_gmv": "Biến động GMV",
+			"report_bulk_order": "Đơn hàng số lượng lớn"
+		}
+	},
+	"view_all": "Xem tất cả"
+}

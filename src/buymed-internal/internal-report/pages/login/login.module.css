@@ -1,0 +1,27 @@
+.loginForm {
+    padding: 20px;
+    margin: auto;
+    min-width: 260px;
+    max-width: 420px;
+    width: 80%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.loginForm h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.loginInput {
+    width: 100%;
+}
+
+.loginButton {
+    margin: 8px;
+    width: 100%;
+}
+
+.loginFormGroup {
+    margin-top: 24px;
+}

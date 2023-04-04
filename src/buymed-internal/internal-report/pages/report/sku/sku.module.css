@@ -1,0 +1,38 @@
+.rightBorder{
+    border-right: 1px solid #ccc;
+}
+
+.tableHead{
+    background-color: #f0f0f0;
+}
+
+.skuInfoBox{
+    margin-top: 20px;
+}
+
+.skuInfo{
+
+}
+.skuInfo label{
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+.skuInfo a{
+    margin-left: 5px;
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.timePresetDesc{
+    color:#888;
+    font-size: 105%;
+}
+
+.skuLink{
+    text-decoration: none;
+    cursor:pointer;
+    color:#00b46e;
+}

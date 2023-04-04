@@ -1,0 +1,64 @@
+.rightBorder{
+    border-right: 1px solid #ccc;
+}
+
+.tableHead{
+    background-color: #f0f0f0;
+}
+
+.ctnFilter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ctnFilter > p {
+    margin-right: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    letter-spacing: 0.05em;
+}
+
+.ctnFilterComp {
+    padding: 30px 20px 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.tableHead {
+    background-color: #E9E9E9;
+    border-radius: 4px;
+}
+
+.tableHead th {
+    border-right: 1px solid #d6d6d6;
+}
+
+.colLeftTable td {
+    border-right: 1px solid #d6d6d6;
+}
+
+.loadCir {
+    font-size: 12px;
+    animation-duration: 450ms !important;
+    color: #219653 !important;
+    position: absolute;
+}
+
+.price_increase {
+    color: #0BD577;
+    position: relative;
+    top: 6px;
+    margin-left: 4px;
+}
+
+.price_reduce {
+    color: #FF0000;
+    position: relative;
+    top: 6px;
+    margin-left: 4px;
+}

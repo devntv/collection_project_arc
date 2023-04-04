@@ -1,0 +1,1 @@
+export TrackingReport from './report'

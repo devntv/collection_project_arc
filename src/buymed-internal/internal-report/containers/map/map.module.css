@@ -1,0 +1,18 @@
+.mapContainer{
+    width: 350px;
+    height: 1000px;
+}
+
+.vnMapResizer{
+    transform: scale(0.3,0.3);
+    margin-top: -350px;
+    margin-left: -125px;
+    width: 350px;
+    height: 1000px;
+    padding:30px;
+}
+
+.province:hover {
+    fill: #ff0000;
+    cursor: pointer;
+}
