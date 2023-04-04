@@ -1,0 +1,57 @@
+.contentPadding {
+    padding: 12px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_50{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.formControl {
+    width: 200px;
+    margin: 10px;
+}
+
+.rightGroup {
+    float: right;
+    align-items: center;
+}
+
+.search {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    margin-bottom: 10px;
+}
+
+.input {
+    flex: 1;
+    margin-left: 3px;
+}
+
+.iconButton {
+    padding: 10px;
+}
+
+.textSearch {
+    color: green;
+    padding: 10px;
+}
+
+.overflowWrap {
+    overflow-wrap: anywhere;
+}
+.actionBtn{
+    justify-content: center !important;
+}
+.cardActions{
+    padding: 20px !important;
+}

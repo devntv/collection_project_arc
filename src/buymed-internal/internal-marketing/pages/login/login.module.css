@@ -1,0 +1,11 @@
+.loginForm {
+    padding: 20px;
+    margin: auto;
+    width: 320px;
+    margin-top: 80px;
+}
+
+.loginForm h1 {
+    margin-top: 0;
+    padding-top: 0;
+}

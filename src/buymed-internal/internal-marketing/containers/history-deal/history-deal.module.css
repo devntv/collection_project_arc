@@ -1,0 +1,79 @@
+@media only screen and (min-width: 800px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 0 -10px;
+    }
+    .flexContainer .flexContent {
+        width: 50%;
+        padding: 0 10px;
+    }
+}
+
+.actionLink {
+    color: #aac !important;
+    text-decoration: none;
+}
+
+.actionLink:hover {
+    color: #fff !important;
+}
+
+.listHead {
+    display: flex;
+    padding: 5px 8px;
+    background: #eee;
+    margin: 0 -8px 4px -8px;
+    border-bottom: 1px solid #999;
+}
+
+.itemContainer {
+    display: flex;
+    padding-bottom: 4;
+}
+
+.orderNo {
+    width: 100px;
+}
+
+.orderNoHead {
+    width: 100px;
+}
+
+.status {
+    width: 15%;
+}
+
+.infoLine {
+    display: flex;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.label {
+    width: 40%;
+    font-weight: bold;
+}
+
+.value {
+    width: 60%;
+}
+
+.search [class*="MuiOutlinedInput-input"] {
+    padding: 10px 15px !important;
+}
+
+.search[class*="MuiOutlinedInput-adornedEnd"] {
+    padding-right: 0 !important;
+}
+
+.actionDownload {
+    color: blue;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer
+}
+
+.actionDownload:hover {
+    color: rgb(69, 69, 245);
+}

@@ -1,0 +1,21 @@
+.MuiAutocomplete-tag {
+    display: none
+}
+
+.cartLink{
+    text-decoration: none !important;
+    cursor: pointer;
+    color:#00b46e;
+}
+
+
+.downloadExampleFile {
+    text-transform: initial;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.downloadExampleFile:hover{
+    color: #aaa
+}

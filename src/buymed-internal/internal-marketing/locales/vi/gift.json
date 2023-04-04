@@ -1,0 +1,16 @@
+{
+    "apply_gift_code_success": "Áp dụng mã quà tặng cho khách hàng mới thành công",
+    "apply_gift_code_fail": "Thao tác không thành công, vui lòng thử lại sau",
+    "apply_gigt_code_ref_success": "Áp dụng mã quà tặng khi giới thiệu bạn bè thành công",
+    "setup": "Cài đặt quà tặng",
+    "gift_code_ref": "Mã quà tặng khi giới thiệu bạn bè",
+    "amount_order_success": "Số đơn đặt hàng thành công",
+    "amount_order_require": "Vui lòng nhập số lượng đơn hàng",
+    "promotion_referrer": "Khuyến mãi cho người giới thiệu",
+    "select_placeholder": "Vui lòng chọn",
+    "promotion_referral": "Khuyến mãi cho người được giới thiệu",
+    "btn_apply": "ÁP DỤNG",
+    "giftcode_new_customer": "Mã quà tặng cho khách hàng mới",
+    "gift_new_customer": "Quà tặng cho khách hàng mới",
+    "select": "Chọn"
+}
