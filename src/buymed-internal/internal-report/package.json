@@ -1,0 +1,53 @@
+{
+  "name": "@thuocsi/internal-report",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 80"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@devexpress/dx-chart-core": "^2.7.6",
+    "@devexpress/dx-react-chart": "^2.7.6",
+    "@devexpress/dx-react-chart-material-ui": "^2.7.6",
+    "@devexpress/dx-react-core": "^2.7.6",
+    "@ffmpeg/ffmpeg": "0.9.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.19",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/styles": "^4.11.4",
+    "@thuocsi/nextjs-components": "git+https://gitlab.com/thuocsi.vn-sdk/nextjs-components.git#v0.2.62",
+    "@thuocsi/profile": "git+https://gitlab.com/thuocsi.vn-sdk/js-common#v1.2.2-profile",
+    "@thuocsi/profile-customer": "git+https://gitlab.com/thuocsi.vn-sdk/js-common#v1.1.4-profile-customer",
+    "cross-env": "^7.0.3",
+    "d3-scale": "^3.3.0",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.29.4",
+    "next": "^10.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-translate": "^1.5.0",
+    "next-transpile-modules": "^4.1.0",
+    "notistack": "1.0.10",
+    "react": "16.13.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "16.13.1",
+    "react-hook-form": "^6.15.8",
+    "react-use-websocket": "3.0.0",
+    "recharts": "^2.2.0",
+    "uuid": "^9.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2"
+  }
+}

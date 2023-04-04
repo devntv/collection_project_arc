@@ -1,0 +1,43 @@
+{
+	"today": "Hôm nay",
+	"thisWeek": "Tuần này",
+	"thisMonth": "Tháng này",
+	"scheduleDescription": "Dữ liệu được cập nhật định kì 15 phút 1 lần. Lần cuối cập nhật lúc ",
+	"revenueDescription": "Doanh thu hiển thị là doanh thu trên sản phẩm, chưa tính phí & khuyến mãi.",
+	"compareWithLastWeekday": "So với cùng ngày tuần trước:",
+	"compareWithLastWeek": "So với tuần trước:",
+	"compareWithLastMonth": "So với tháng trước:",
+	"customer": {
+		"30daysRegistration": "Khách hàng đăng ký mới trong 30 ngày",
+		"30daysActivation": "Kích hoạt tài khoản trong 30 ngày",
+		"30daysPlaceOrder": "Có đặt hàng trong 30 ngày",
+		"newRegistration": "Số đăng ký mới",
+		"newActivation": "Số kích hoạt mới",
+		"loginCount": "Số tài khoản đăng nhập",
+		"orderedCount": "Số khách đặt hàng"
+	},
+	"order": {
+		"30daysCount": "Số đơn hàng",
+		"30daysValue": "Doanh thu",
+		"orderCount": "Số đơn hàng",
+		"firstOrderCount": "Số đơn đặt lần đầu",
+		"promotedOrderCount": "Số đơn có mã KM",
+		"totalValue": "Tổng giá trị đơn"
+	},
+	"seller": {
+		"name": "Tên",
+		"value": "Doanh thu",
+		"orderCount": "Đơn hàng",
+		"customer": "Khách hàng",
+		"seller": "Nhà bán hàng",
+		"normalSeller": "nhà bán hàng"
+	},
+	"sku": {
+		"product": "Sản phẩm",
+		"productID": "ID",
+		"name": "Sản phẩm",
+		"quantity": "Số lượng",
+		"orderCount": "Số đơn",
+		"value": "Doanh thu"
+	}
+}

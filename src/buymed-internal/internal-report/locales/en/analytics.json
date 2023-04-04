@@ -1,0 +1,43 @@
+{
+	"today": "Today",
+	"thisWeek": "This week",
+	"thisMonth": "This month",
+	"scheduleDescription": "Data is refreshed for each 15 minutes. Last updated at ",
+	"revenueDescription": "Fee & Promotion value are excluded from displayed/expected revenue. Please use BI report for more precised number.",
+	"compareWithLastWeekday": "Compared with same weekday last week:",
+	"compareWithLastWeek": "Compared with last week:",
+	"compareWithLastMonth": "Compared with last month:",
+	"customer": {
+		"30daysRegistration": "Registration in 30 days",
+		"30daysActivation": "Activation in 30 days",
+		"30daysPlaceOrder": "Placed order in 30 days",
+		"newRegistration": "New registered customers",
+		"newActivation": "New activated customers",
+		"loginCount": "Active (have login) customers",
+		"orderedCount": "Paid customer"
+	},
+	"order": {
+		"30daysCount": "Orders",
+		"30daysValue": "Revenue",
+		"orderCount": "Orders",
+		"firstOrderCount": "First orders",
+		"promotedOrderCount": "Orders with voucher",
+		"totalValue": "Total value"
+	},
+	"seller": {
+		"name": "Name",
+		"orderCount": "Order",
+		"customer": "Customer",
+		"value": "Value",
+		"seller": "Seller",
+		"normalSeller": "seller"
+	},
+	"sku": {
+		"product": "Product",
+		"productID": "Product ID",
+		"name": "Product name",
+		"quantity": "Quantity",
+		"orderCount": "Order",
+		"value": "Value"
+	}
+}
