@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SVN Gilroy'),
+    url(/fonts/svn-gilroy-regular.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: local('SVN Gilroy'), url(/fonts/svn-gilroy-medium.ttf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  src: local('SVN Gilroy'),
+    url(/fonts/svn-gilroy-semibold.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: local('SVN Gilroy'), url(/fonts/svn-gilroy-bold.ttf) format('opentype');
+  font-display: swap;
+}
+
+::selection {
+  @apply bg-primary-50 text-white;
+}
+
+html {
+  @apply min-w-mobile scroll-smooth;
+}
+
+#__next {
+  @apply dark:bg-neutral-90 font-gilroy flex min-h-screen flex-col bg-white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply shadow-shadow8 h-12 w-12 rounded-full !important;
+}
+
+.swiper-button-next {
+  @apply bg-white bg-[image:url('/static/icons/ArrowNarrowBannerRight.svg')] bg-center bg-no-repeat !important;
+  background-size: 36px 24px, 48px 48px;
+}
+
+.swiper-button-next:hover {
+  @apply bg-primary-50 bg-[image:url('/static/icons/ArrowNarrowBannerRightHover.svg')] bg-center bg-no-repeat;
+  background-size: 36px 24px, 48px 48px;
+}
+
+.swiper-button-prev {
+  @apply bg-white bg-[image:url('/static/icons/ArrowNarrowBannerLeft.svg')] bg-center bg-no-repeat;
+  background-size: 36px 24px, 48px 48px;
+}
+
+.swiper-button-prev:hover {
+  @apply bg-primary-50 bg-[image:url('/static/icons/ArrowNarrowBannerLeftHover.svg')] bg-center bg-no-repeat;
+  background-size: 36px 24px, 48px 48px;
+}
+
+.swiper-button-next::after {
+  @apply hidden;
+}
+
+.swiper-button-prev::after {
+  @apply hidden;
+}
+
+.instruction > .swiper {
+  @apply pb-6 !important;
+}
+
+.instruction > .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  @apply absolute bottom-0 !important;
+}
+
+.home-banner > .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  @apply absolute bottom-4 !important;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-neutral-20 h-1 w-8 rounded-3xl !important;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary-50 !important;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  @apply from-primary-50 to-primary-40 bg-gradient-to-r text-white;
+}
+.gallery-thumbs .swiper-slide-thumb-active p {
+  @apply text-subtitle20 font-bold;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active h3 {
+  @apply text-subtitle20 font-bold !text-white !important;
+}
+
+.gallery-thumbs .swiper-slide {
+  @apply desktop:group-hover:text-primary-50 cursor-pointer;
+}
+
+.Toastify__toast-container.Toastify__toast-container--top-right {
+  @apply desktop:top-[100px] top-[120px];
+}
+
+.Toastify__toast-container .Toastify__toast-body {
+  @apply font-gilroy text-neutral-70 text-body14;
+}
+
+.unset-img > div {
+  position: unset !important;
+}
+
+.swiper-wrapper {
+  @apply items-center;
+}
+
+.journey-ahamove .swiper-slide .journey-info {
+  opacity: 0.5;
+}
+
+.journey-ahamove .swiper-slide-active .journey-info {
+  opacity: 1 !important;
+}
+
+.journey-ahamove {
+  overflow: visible !important;
+}
+
+.gallery-ahamovers {
+  @apply mx-auto h-auto w-full max-w-xl !overflow-visible;
+}
+
+.gallery-ahamovers .swiper-slide {
+  display: flex;
+  opacity: 0.5;
+  color: black;
+  align-items: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+  transition: all 200ms linear;
+  transform: scale(0.9) !important;
+  @apply bg-secondary-40 rounded-2xl text-white;
+}
+
+.gallery-ahamovers .swiper-slide-active {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+  @apply bg-yellow-20 text-secondary-60 rounded-2xl;
+}
+
+.gallery-ahamovers .swiper-slide__content {
+  height: auto;
+}
+
+.gallery-warehouse {
+  @apply mx-auto h-auto w-full max-w-xl !overflow-visible;
+}
+
+.gallery-warehouse .swiper-slide {
+  display: flex;
+  opacity: 0.5;
+  color: black;
+  align-items: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+  transition: all 200ms linear;
+  transform: scale(0.9) !important;
+}
+
+.gallery-warehouse .swiper-slide-active {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+
+.gallery-warehouse .swiper-slide .alt-image {
+  @apply hidden;
+}
+
+.gallery-warehouse .swiper-slide-active .alt-image {
+  @apply block;
+}
+
+.gallery-warehouse .swiper-slide__content {
+  height: auto;
+}
+
+.grecaptcha-badge {
+  opacity: 0;
+}
+
+#nprogress .bar {
+  @apply bg-primary-50 fixed inset-x-0 top-0 z-50 h-[3px];
+}
+
+.gallery-ahamovers {
+  @apply mx-auto h-auto w-full max-w-xl !overflow-visible;
+}
+
+.gallery-customers .swiper-slide {
+  display: flex;
+  opacity: 0.5;
+  color: black;
+  align-items: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+  transition: all 200ms linear;
+  @apply rounded-2xl;
+}
+
+.gallery-customers .swiper-slide__content {
+  height: auto;
+}
+
+/*.pvc_stats {
+  @apply hidden;
+}*/
+
+.prose figure {
+  @apply mx-auto;
+}
+
+.prose iframe {
+  @apply aspect-video h-auto !w-full;
+}
+
+.prose :where(strong):not(:where([class~='not-prose'] *)) {
+  @apply !text-inherit;
+}
+
+svg.svg-inline--fa.fa-chart-bar {
+  @apply hidden;
+}
