@@ -1,3 +1,0 @@
-include: 
-  - project: 'thuocsi.vn/ci-cd'
-    file: '/.shared-gitlab-ci-frontend.yml'

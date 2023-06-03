@@ -1,2 +1,0 @@
-export const TOGGLE_FEATURE_PREFIX = 'TOGGLE_FEATURE_';
-export default { TOGGLE_FEATURE_PREFIX };

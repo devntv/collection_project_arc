@@ -1,9 +1,0 @@
-.container {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 1px 1px 2px 1px;
-  line-height: 12px;
-  border-radius: 3px;
-}

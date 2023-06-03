@@ -1,4 +1,0 @@
-.CardContent ul li::marker {
-  color: black !important;
-  content: '•  ';
-}

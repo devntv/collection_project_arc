@@ -1,8 +1,0 @@
-.disabled_btn {
-  border: 1px solid #a2a0a0 !important;
-  filter: invert(68%) sepia(1%) saturate(0%) hue-rotate(153deg) brightness(83%) contrast(85%);
-  color: #a2a0a0 !important;
-}
-.disabled_btn [class*='MuiButton-startIcon'] {
-  filter: invert(68%) sepia(1%) saturate(0%) hue-rotate(153deg) brightness(83%) contrast(85%);
-}
